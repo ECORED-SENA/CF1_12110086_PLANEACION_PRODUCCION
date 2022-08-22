@@ -2,13 +2,18 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 25%
+    right: 83%
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: float2 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 65%
+    right: 79%
+  &-3
+    animation: float2 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 52%
+    right: 13%
 
 
 @keyframes float1
@@ -17,3 +22,186 @@
 
   100%
     transform: translateY(0px)
+
+@keyframes float2
+  0%
+    transform: translateX(20px)
+
+  100%
+    transform: translateX(0px)
+
+.bg1
+  background-color: #F14141
+  border-radius: 20px
+
+.bg2
+  position: relative
+  .row, .row
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 0rem
+    top: -1rem
+    left: 74px
+    width: calc( 100% - 8rem)
+    height: calc( 100% + 3rem)
+    background-image: url("../assets/curso/tema1/img2.png") 
+    background-repeat: no-repeat
+    background-size: cover
+   
+.bg3
+  background-color: #E9EEF9
+
+.bg4
+  position: relative
+  .row
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 0rem
+    top: -2rem
+    left: -280px
+    width: calc( 100% + 11rem)
+    height: calc( 100% + 5rem)
+    background-image: url("../assets/curso/tema1/img6.png") 
+    background-repeat: no-repeat
+    background-size: contain
+    @media (max-width: $bp-max-md)
+      background-size: cover
+      left: -8px
+      width: calc( 100% + 1rem)
+.bg5
+  background-color: #FDE2E2
+  margin-inline: -12px
+
+.bg6
+  background-color: #02A5BF
+  border-radius: 20px
+
+.bg7
+  position: relative
+  .row, 
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 0rem
+    top: +5rem
+    left: -49px
+    width: calc( 100% + 6rem)
+    height: calc( 100% + -3rem)
+    background-image: url("../assets/curso/tema1/img16.svg") 
+    background-repeat: no-repeat
+    background-size: cover
+
+.bg8
+  background-color: #083898
+  border-radius: 40px
+
+.bg9
+  position: relative
+  .p, .row, .row
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 0rem
+    top: +5rem
+    left: -49px
+    width: calc( 100% + 6rem)
+    height: calc( 100% + -10rem)
+    background-image: url("../assets/curso/tema1/img16.svg") 
+    background-repeat: no-repeat
+    background-size: cover
+
+.bg10
+  position: relative
+  .row
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 0rem
+    top: -1rem
+    left: -20px
+    width: calc( 100% + -8rem)
+    height: calc( 100% + 19rem)
+    background-image: url("../assets/curso/tema1/img42.svg") 
+    background-repeat: no-repeat
+    background-size: contain
+
+.bg11
+  background-color: #D9F2F6
+  margin-inline: -12px
+
+
+    
+.dual-txt-deco
+  position: relative
+  &::after
+    content: ""
+    position: absolute
+    top: -9px
+    left: -16px
+    width: 35%
+    height: 65%
+    background-color: #FEF3F3
+    z-index: 0
+
+.txt-color1
+  color: #F14141
+  font-weight: bold
+
+.txt-color2
+  color: #2C78DC
+  font-weight: bold
+
+
+.bloque-texto-c.color-secundario 
+  background-color: #E9EEF9
+
+.img-infografica.color-acento-contenido .img-infografica__item__numero, .img-infografica-b.color-acento-contenido .img-infografica__item__numero 
+  color: #fff
+
+.tarjeta.color-cuarto
+  background-color: #FDE2E2
+  border: 2px solid #F14141
+  border-radius: 0px
+
+.bg_color1
+  background-color: #D9F2F6
+.bg_color1:hover
+  background-color: #A6E0E9
+
+.linea-tiempo-d.color-secundario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  background-color: #E9EEF9
+  span
+    color: #12263F
+ 
+.linea-tiempo-d__item--selected .tarjeta--gris
+  background-color: #E9EEF9 !important
+
+.img320
+  width: 300px
+  height: 110px
+
+.tarjeta--azul 
+  background-color: #E9F4F9
+  border-radius: 0px
+
+.img-t
+  width: auto
+  height: auto  
+  
+.img26
+  max-width: 26px 
+  width: 430px !important
+
+.pasos-a.color-acento-contenido .pasos-a__circle div
+  color: #fff
+
+
+
+  

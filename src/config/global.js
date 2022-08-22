@@ -1,8 +1,9 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Planeación y Plan Maestro de la producción',
+    descripcionCurso:
+      'En la planeación de la capacidad productiva y las cargas de trabajo, la estrategia es determinar qué tan preciso puede ser el equilibrio de los tres principales recursos de un proceso logístico, las personas, la infraestructura tecnológica y digital y las materias primas. <br> Este componente hará referencia a un tema muy importante para las plantas de producción: el Plan maestro de producción, que permite comprender qué se va a hacer  en un período determinado y el nivel de trazabilidad porcentual, servicios o unidades que se pueden procesar de manera eficiente.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -12,6 +13,10 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
     ],
   },
@@ -32,14 +37,44 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Planeación de la producción',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Conceptos generales, Estrategias, y Aplicación',
             hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Sistemas de Producción',
+            hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo: 'Secuencias operacionales',
+            hash: 't_1_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.4',
+            titulo: 'Capacidad productiva y cargas de trabajo',
+            hash: 't_1_4',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.5',
+            titulo: 'Producción por lotes u órdenes de producción',
+            hash: 't_1_5',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.6',
+            titulo: 'Control de inventario en proceso',
+            hash: 't_1_6',
           },
         ],
       },
@@ -48,15 +83,34 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Plan maestro de la producción',
         desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
-        numero: '3',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.1',
+            titulo: 'Definición y conceptos generales',
+            hash: 't_2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: 'Requerimientos para un Plan Maestro de Producción',
+            hash: 't_2_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.3',
+            titulo: 'Resultados del Plan Maestro de Producción PMP',
+            hash: 't_2_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.4',
+            titulo: 'Cómo elaborar un Plan Maestro de Producción PMP',
+            hash: 't_2_4',
+          },
+        ],
       },
     ],
     subMenu: [
