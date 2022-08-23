@@ -14,7 +14,7 @@
             p Para los sectores productivos hablar de planeación de la producción se refiere al componente vital del proceso productivo, es decir, sus recursos esenciales, el factor humano, el producto y la maquinaria, que en compañía de las infraestructuras tecnológicas y digitales provee de servicios o productos de óptima calidad a la demanda del mercado;  de estos dependen que los administrativos, proyecten el futuro económico que tanto les preocupa, lo que implica obtener máxima eficiencia del equipo operativo y utilizar sus conocimientos, puesto que proveer al mercado de altos parámetros de calidad inmersos en sus productos, significa una ventaja competitiva que la empresa sostiene en el tiempo. 
             .bloque-texto-c.color-secundario.p-4
               i.fas.fa-quote-right
-              p.mb-2 Proveer al mercado de productos que colmen las expectativas de un consumidor final, aumenta la demanda, la sostenibilidad y el crecimiento económico, así como el incremento del empleo para una región golpeada por la actual situación de salud y bajas económicas
+              p.mb-3 Proveer al mercado de productos que colmen las expectativas de un consumidor final, aumenta la demanda, la sostenibilidad y el crecimiento económico, así como el incremento del empleo para una región golpeada por la actual situación de salud y bajas económicas
               span  #[b Valverde Chifla, 2014].
     Separador
     #t_1_1
@@ -90,11 +90,12 @@
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.2 Sistemas de Producción
     p.mb-5 Los sistemas de producción en la sociedad moderna son sobresalientes; estos sistemas forman la base para construir y mejorar la fortaleza y la vitalidad económicas de un país. La tarea de desarrollar y operar los sistemas de producción crece en complejidad, los cambios importantes en los productos, los procesos, las tecnologías de gestión, los conceptos y la cultura, dan como resultado retos y necesidades cada vez mayores. 
-    .row.justify-content-center.mb-5
-      .col-lg-6.bg5(data-aos="fade-right") 
-        p.py-3 El #[b #[i Lean Manufacturing]] es toda una estrategia y/o conciencia de  fabricación en el que la configuración de espacio físico es lo más relevante de la planta.
+    .row.justify-content-center.align-items-center.mb-4
+      
+      .col-md-6.col-12.bg5.p-4(data-aos="fade-right") 
+        p El #[b #[i Lean Manufacturing]] es toda una estrategia y/o conciencia de  fabricación en el que la configuración de espacio físico es lo más relevante de la planta.
         p Es un sistema de producción emergente,  comúnmente conocido en los ambientes de producción como manufactura celular.
-      .col-lg-6
+      .col-md-6.col-12.px-0
         figure
           img(src='@/assets/curso/tema1/img7.png')(data-aos="fade-left")
     
@@ -176,16 +177,16 @@
         p En resumen, la importancia de la filosofía <em>Lean</em>, radica en el empleo de metodologías fuertemente efectivas, las cuales confluyen en un unido grupo de herramientas técnicas de fabricación o prestación de servicio que buscan la mejora continua de los procesos productivos a través del uso de pilares de disminución de toda forma de “desperdicios” o MUDAS, definidos éstos como los procesos o actividades que usan más recursos de los estrictamente necesarios o generan costos ocultos. 
         p.p-3.bg5  La combinación de todas estas filosofías construye un modelo que está presto a una nueva cultura tendente a encontrar la forma de aplicar mejoras en la planta de fabricación, tanto a nivel de puesto de trabajo como de línea de fabricación; para lo cual, se considera fundamental la colaboración y comunicación plena entre directivos, mandos y operarios.
     p.mb-5 En conclusión, lo que se pretende con estos sistemas de producción es brindar a los empleados de las empresas, un panorama real de lo que constituye aplicar estrategias de #[b #[i Lean Manufacturing]] para:
-    .row.justify-content-center.mb-5
-      .col-lg-6
-        .tarjeta-avatar-b.mb-5.h-100
+    .row.justify-content-center(data-aos="fade-left").mb-5
+      .col-lg-6.mb-4
+        .tarjeta-avatar-b.mb-0.h-100
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema1/img17.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azul
             .p-4
-              p Configurar, toda una cultura en la realización de menos operaciones en menos espacios, y que constantemente se concienticen en la búsqueda de la excelencia operacional, de manera que los clientes reciban productos y/o servicios de alta calidad, entregados a tiempo y a un precio competitivo.
-      .col-lg-6
-        .tarjeta-avatar-b.mb-5.h-100
+              p.mt-4 Configurar, toda una cultura en la realización de menos operaciones en menos espacios, y que constantemente se concienticen en la búsqueda de la excelencia operacional, de manera que los clientes reciban productos y/o servicios de alta calidad, entregados a tiempo y a un precio competitivo.
+      .col-lg-6.mb-4
+        .tarjeta-avatar-b.mb-0.h-100
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema1/img18.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azul
@@ -206,22 +207,22 @@
     p.mb-5 Es posible que observamos en la infinidad de estructuras logísticas, ya sea pequeñas o de gran dimensión la presencia de dos tipos de actividades productivas o servicios:
     .row.justify-content-center.align-items-center.mb-5
       .col-sm-6.col-lg-4.mb-4.mb-lg-0
-        .tarjeta--boton.bg8.text-white.p-4.h-100
-          .row.justify-content-center.mb-3
-            .col-7
+        .tarjeta--boton.bg8.text-white.p-5.h-100
+          .row.justify-content-center.mb-0
+            .col-12
               figure
-                img.img320(src='@/assets/curso/tema1/img20.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema1/img20.png', alt='Texto que describa la imagen')
           h3.text-center Directas
-          p.text-small Relacionadas con la transformación de la materia prima.
+          p Relacionadas con la transformación de la materia prima.
       .col-lg-1
       .col-sm-6.col-lg-4.mb-4.mb-lg-0
-        .tarjeta--boton.bg8.text-white.p-4.h-100
-          .row.justify-content-center.mb-3
-            .col-7
+        .tarjeta--boton.bg8.text-white.p-5.h-100
+          .row.justify-content-center.mb-0
+            .col-12
               figure
-                img.img320(src='@/assets/curso/tema1/img21.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema1/img21.png', alt='Texto que describa la imagen')
           h3.text-center Indirectas
-          p.text-small Relacionadas con la administración de los procesos productivos.
+          p Relacionadas con la administración de los procesos productivos.
     p.mb-5 De esta forma, un conocimiento profundo interrelaciona estas funciones y los sistemas de producción como cerebro del proceso, es así como establece 10 componentes o funciones que logísticamente ordenan todos los eventos relacionados con el producto o servicio, estos son:
     .row.align-items-center.mb-5
       .col-lg-8
@@ -325,12 +326,11 @@
         .col-lg-4
           p.p-3.bg5 Los diagramas de secuencia muestran la forma en que un grupo de objetos  se comunican o interactúan entre sí a lo largo de un tiempo y facilita comprender la ejecución de un proceso.
         .col-lg-10
-      .row.justify-content-center.mb-4
-        .col-lg-10
-          p.p-3.bg11 El orden operacional y/o de la conexión en cadena de las actividades en la logística de producción y servicios se refiere al proceso de comprender, visualizar, e identificar los eventos y/o actividades, que participan en una seguidilla de acciones que se hacen para obtener un resultado por medio de herramientas gráficas, listados y otros elementos. #[span.txt-color2 La secuencia operacional es el camino que se traza para ir avanzando y agregando valor a ese proceso requerido para conseguir las metas.] 
-        .col-lg-2
-          figure
-            img(src='@/assets/curso/tema1/img34.png')
+      .row.justify-content-center.align-items-center.mb-4
+        .col-md-10.col-12.bg11.p-3
+          p El orden operacional y/o de la conexión en cadena de las actividades en la logística de producción y servicios se refiere al proceso de comprender, visualizar, e identificar los eventos y/o actividades, que participan en una seguidilla de acciones que se hacen para obtener un resultado por medio de herramientas gráficas, listados y otros elementos. #[span.txt-color2 La secuencia operacional es el camino que se traza para ir avanzando y agregando valor a ese proceso requerido para conseguir las metas.] 
+        .col-md-2.col-12.px-0
+          img(src='@/assets/curso/tema1/img34.png')
       .row.mb-2.align-items-center
         .col-lg-6.bg1.p-3.mb-5
           h3.text-white.text-center.mb-0 Pasos para construir una secuencia operacional
@@ -428,56 +428,477 @@
       table
         thead(style="background-color: #F14141")
           tr 
-            th(colspan="4").text-center.text-white Informe histórico de ventas  
+            th(colspan="4").text-center.text-white LISTADO OPERACIONES
         tbody     
           tr(style="background-color: #FABCBC")
             th(colspan="4")
-             td(colspan="1").text-center #[b Referencia: 561007]
-             td(rowspan="1").text-center #[b Orden de producción: 561007]
-             td(rowspan="1").text-center #[b Fecha: 7/72021]
+             td(colspan="3").text-center #[b Referencia: 561007]
+             td(colspan="3").text-center #[b Orden de producción: 561007]
+             td(colspan="3").text-center #[b Fecha: 7/72021]
           tr(style="background-color: #FDE2E2")
-            td 
-              h5.text-center SEC
-            td 
-              h5.mb-4.text-center.mb-0 DESCRIPCIÓN DE LA OPERACIÓN
-            td 
-              h5.mb-4.text-center.mb-0 MÁQUINA
-            td 
-              h5.mb-4.text-center.mb-0 SAM
-           
-          tr(style="background-color: #F6F6F6")
-            td.text-center Producto B
-            td 
-              p.mb-4.text-center.mb-0 2.500
-            td 
-              p.mb-4.text-center.mb-0 2.200
-            td 
-              p.mb-4.text-center.mb-0 300
-            
+            td.text-center #[b SEC]
+            td.mb-4.text-center.mb-0 DESCRIPCIÓN DE LA OPERACIÓN
+            td.mb-4.text-center.mb-0 MÁQUINA
+            td.mb-4.text-center.mb-0 SAM
           tr
-            td 
-              p.text-center Producto C
-
-            td.mb-4.text-center.mb-0 3.000
-              
-            td.mb-4.text-center.mb-0 3.200
-             
-            td.mb-4.text-center.mb-0 -200
-              
-           
+            td.text-center 1
+            td.text-center.mb-0 Fijar marquilla
+            td.mb-4.text-center.mb-0 Plana1
+            td.mb-4.text-center.mb-0 0,308  
           tr(style="background-color: #F6F6F6")
-            td 
-              p.text-center Total
-            td 
-              p.mb-4.text-center.mb-0 20.500
-            td 
-              p.mb-4.text-center.mb-0 18.400
-            td 
-              p.mb-4.text-center.mb-0 2.100
-           
+            td.text-center 2
+            td.mb-4.text-center.mb-0 Unir hombro derecho
+            td.mb-4.text-center.mb-0 Filesc
+            td.mb-4.text-center.mb-0 0,394
+          tr
+            td.text-center 3
+            td.mb-4.text-center.mb-0 Sesgar cuello redondo
+            td.mb-4.text-center.mb-0 Recub1
+            td.mb-4.text-center.mb-0 0,972
+          tr(style="background-color: #F6F6F6")
+            td.text-center 4
+            td.mb-4.text-center.mb-0 Unir hombro izquierdo casando sesgo
+            td.mb-4.text-center.mb-0 Filesc
+            td.mb-4.text-center.mb-0 0,422
+          tr
+            td.text-center 5
+            td.mb-4.text-center.mb-0 Sesgar sisas x2
+            td.mb-4.text-center.mb-0 Recub1
+            td.mb-4.text-center.mb-0 1,448
+          tr(style="background-color: #F6F6F6")
+            td.text-center 7
+            td.mb-4.text-center.mb-0 Presilla x1 cuello
+            td.mb-4.text-center.mb-0 Presil
+            td.mb-4.text-center.mb-0 0,216
+          tr
+            td.text-center 8
+            td.mb-4.text-center.mb-0 Presilla sisas x2
+            td.mb-4.text-center.mb-0 Presil
+            td.mb-4.text-center.mb-0 0,610
+          tr(style="background-color: #F6F6F6")
+            td.text-center 9
+            td.mb-4.text-center.mb-0 Doblar ruedo bajo
+            td.mb-4.text-center.mb-0 Recub2
+            td.mb-4.text-center.mb-0 1,240
+          tr
+            td.text-center 10
+            td.mb-4.text-center.mb-0 Pulir y revisar esqueleto
+            td.mb-4.text-center.mb-0 Manual
+            td.mb-4.text-center.mb-0 1,276
+          tr(style="background-color: #F6F6F6")
+            td.text-center 11
+            td.mb-4.text-center.mb-0 Pegar <em>sticker</em> en etiqueta y bolsa
+            td.mb-4.text-center.mb-0 Manual
+            td.mb-4.text-center.mb-0 0,138
+          tr
+            td.text-center 12
+            td.mb-4.text-center.mb-0 Etiquetar x2
+            td.mb-4.text-center.mb-0 Manual
+            td.mb-4.text-center.mb-0 0,144
+          tr(style="background-color: #F6F6F6")
+            td.text-center 13
+            td.mb-4.text-center.mb-0 Doblar, empacar y encintar bolsa duo camisetas
+            td.mb-4.text-center.mb-0 Manual
+            td.mb-4.text-center.mb-0 0,412
+          tr
+            td(colspan="3").text-center #[b TOTAL]
+            td.mb-4.text-center.mb-0 8,972
+    Separador
+    #t_1_4
+    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 1.4	Capacidad productiva y cargas de trabajo
+    p La estrategia en la planeación de la capacidad productiva y las cargas de trabajo, es determinar qué tan preciso puede ser el equilibrio de los tres principales recursos de un proceso productivo, las personas, las máquinas y las materias primas. 
+    .row.justify-content-center(data-aos="fade-left").mb-5
+      .col-lg-6.mb-4
+        .tarjeta-avatar-b.mb-0.h-100
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/tema1/img44.svg' alt='AvatarTop')
+          .tarjeta.tarjeta--azul
+            .p-4
+              p.mt-5 La organización de los tiempos en cuanto a las distintas actividades del proceso de producción es crucial para cumplir los objetivos propuestos.
+      .col-lg-6.mb-4
+        .tarjeta-avatar-b.mb-0.h-100
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/tema1/img45.svg' alt='AvatarTop')
+          .tarjeta.tarjeta--azul
+            .p-4
+              p Por lo tanto, hacer un adecuado balanceo de líneas de producción, es la mejor técnica empleada en la asignación de cargas de trabajo y diseñar y aplicar la matriz de polifuncionalidad, lo que direcciona a los administrativos al descubrimiento de fortalezas y debilidades de los equipos de colaboradores. 
+    p.mb-5 En la situación actual de pequeños medianos y grandes empresarios, es necesarios desarrollar habilidades básicas dirigidas primordialmente a aportar al recurso humano poco calificado, en cómo mejorar los procesos logísticos de producción y servicios, siempre proyectando unos resultados finales óptimos en cuanto a costos y que satisfagan las necesidades de un cliente en términos de calidad. 
+    .row.mb-2.align-items-center
+      .col-lg-3.bg1.p-3.mb-5
+        h3.text-white.text-center.mb-0 Capacidad productiva
+    .row.mb-4.justify-content-center.align-items-center(data-aos="fade-left")
+      .col-lg-6.mb-4.mb-lg-0
+        figure
+          img(src='@/assets/curso/tema1/img46.png').m-auto
+      .col-lg-6.mb-5
+        p.mb-5 #[b Se deben crear necesidades como]:
+        ul.lista-ul
+            li 
+              i.fas.fa-cog(style="color:#F14141")
+              | El cálculo de la capacidad productiva. 
+            li 
+              i.fas.fa-cog(style="color:#F14141")
+              | Estimar las cargas de trabajo y lo que son capaces de producir. 
+            li 
+              i.fas.fa-cog(style="color:#F14141")
+              | Realizar trazabilidad en tiempo presente a sus procesos.
+            li 
+              i.fas.fa-cog(style="color:#F14141").mb-4
+              | Concentrarse en elaborar unos completos listados operacionales.
+        p.mb-4.p-3.bg15.shadow  Que permitan una ilustración directa a los entes gerenciales, del manejo de los costos y un máximo aprovechamiento de los recursos.
+        p Planificar ordenada y permanentemente la capacidad productiva y las cargas de trabajo sin importar el tamaño de los lotes o el servicio a prestar, ayuda al empresario a desarrollar habilidades para establecer la realidad de su negocio, y se convierte en un instrumento técnico empleado para responder con puntualidad a los clientes sobre las fechas de entrega de sus productos o servicios.
+    .row.mb-2.align-items-center
+      .col-lg-5.bg1.p-3.mb-5
+        h3.text-white.text-center.mb-0 Capacidad instalada operativa. Horas hombre
+    .row.mb-4.justify-content-center.align-items-center(data-aos="fade-left")
+      .col-lg-7
+        p Se refiere al número de minutos que utiliza el personal de mano de obra directa durante una jornada o periodo de trabajo, al realizar una actividad, utilizar cien por ciento la maquinaria disponible durante el ciclo laboral y calcular matemáticamente los minutos empleados para un servicio o una orden de producción específica; todo esto, con base en la aplicación estricta de los parámetros de calidad que se requieren para ensamblar una unidad de producción o precisamente la prestación del servicio.
+        p #[b Horas hombre]
+        p Para las corporaciones de manufactura y servicios hablar de capacidad instalada se refiere a volver tiempo, el componente vital del proceso productivo que es el factor humano. 
+        p.p-3.bg11 #[b Factor humano] <br> Técnicamente llamado minutos u horas hombre, que en operatividad de la infraestructura en maquinaria, tecnología digital y materias primas agrega valor y provee servicios o productos de óptima calidad. 
+      .col-lg-5.mb-4.mb-lg-0
+        figure
+          img(src='@/assets/curso/tema1/img47.png').m-auto
+    .row.mb-4.justify-content-center.align-items-center(data-aos="fade-left")
+      .col-lg-5.mb-4.mb-lg-0
+        figure
+          img(src='@/assets/curso/tema1/img48.png').m-auto
+      .col-lg-7
+        p Los resultados obtenidos en cálculo de tiempo de las “horas hombre” se convierten en los elementos para determinar la trazabilidad porcentual de la carga instalada en unidad de tiempo y la asignación precisa de tareas a la infraestructura productiva.
+        p De estos factores dependen que los administrativos, proyecten el futuro económico que tanto les preocupa, con estrategias gerenciales y el importante conocimiento que poseen los colaboradores del proceso logístico. 
+        p.p-3.bg11 #[b Altos parámetros de calidad] <br> El resultado final es abastecer al mercado con productos y servicios que tengan altos parámetros de calidad, lo que significa una ventaja competitiva que las empresas sostienen en el tiempo. 
+    .row.mb-5.justify-content-center.align-items-center(data-aos="fade-left")
+      .col-lg-7
+        .bloque-texto-c.color-secundario.p-4
+          i.fas.fa-quote-right
+          p.mb-3 Proveer al mercado de productos que colmen las expectativas de un consumidor final aumenta la demanda, la sostenibilidad y el crecimiento económico, así como el incremento del empleo para una región golpeada por la actual situación de salud y bajas económicas.
+          span  #[b (Valverde Chifla, 2014)].
+      .col-lg-5.mb-4.mb-lg-0
+        figure
+          img(src='@/assets/curso/tema1/img49.png').m-auto
+    .row.mb-2.align-items-center
+      .col-lg-8.bg1.p-3.mb-5
+        h3.text-white.text-center.mb-0 Cálculo matemático para la Carga instalada o minutos de producción.
+    p.mb-4 Para realizar su cálculo se emplean las siguientes #[span.txt-color2 variables]:
+    .row.justify-content-center.align-items-center.mb-5
+      .col-sm-4.col-lg-4.mb-4.mb-lg-0
+        .tarjeta--boton1.bg8.text-white.p-4.alt
+          .row.justify-content-center.mb-3
+            .col-12
+              figure
+                img(src='@/assets/curso/tema1/img50.png', alt='Texto que describa la imagen')
+          h4.text-center Número de personas de Mano de Obra Directa.
+          p.pb-3 Se define como el recurso humano directo que interviene en el proceso productivo, es decir, los personas que transforman la materia prima.
+      .col-sm-4.col-lg-4.mb-4.mb-lg-0
+        .tarjeta--boton1.bg8.text-white.p-4
+          .row.justify-content-center.mb-3
+            .col-12
+              figure
+                img(src='@/assets/curso/tema1/img51.png', alt='Texto que describa la imagen')
+          h4.text-center Jornada de trabajo.
+          p.pb-3 Periodo de tiempo estimado en la normatividad del Código Sustantivo del Trabajo colombiano, en el que se determinan un número de minutos horarios o diarios.
+      .col-sm-4.col-lg-4.mb-4.mb-lg-0
+        .tarjeta--boton1.bg8.text-white.p-4
+          .row.justify-content-center.mb-3
+            .col-12
+              figure
+                img.img(src='@/assets/curso/tema1/img52.png', alt='Texto que describa la imagen')
+          h4.text-center Constante de días productivos por mes.
+          p Para obtener este dato se debe calcular un promedio estadístico de la sumatoria de los días hábiles de producción por cada mes, lo cual numéricamente se estima que se trabaja con 24 días.    
+    p.mb-5 Así, para determinar la  #[span.txt-color2 Capacidad Instalada Operativa] se debe realizar la siguiente  #[span.txt-color2 fórmula]:
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        figure
+          img.img(src='@/assets/curso/tema1/img53.svg', alt='Texto que describa la imagen')
+    p Para comprender un poco más acerca de la capacidad instalada operativa aplicada al contexto laboral, se presenta un ejemplo ilustrativo:
+    .row.mb-2.align-items-center
+      .col-lg-3.bg1.p-3.mb-5
+        h3.text-white.text-center.mb-0 Hilos y Dedales S.A.S.
+    .row.bg11.justify-content-center.align-items-center.p-5
+      .col-md-9.col-12
+        p La empresa tiene una planta de manufactura y cuenta con dos módulos de ensamble que poseen personal de mano de obra directa de  9 y 8 personas respectivamente;  y un módulo en el área de empaque con 14 personas. 
+        p.p-3.bg12 La empresa labora de lunes a sábado, 8 horas diarias. Por ello, se pide calcular la capacidad instalada operativa, por equipos de trabajo, durante una hora, un día y un mes. 
+      .col-md-3.col-12.p-3
+        img(src='@/assets/curso/tema1/img54.svg')
+    .row.bg13.justify-content-center.align-items-center.p-5.mb-5
+      .tabla-a.color-acento-contenido.mb-5 
+        table
+          thead
+            tr 
+              th(colspan="5").text-center CAPACIDAD INSTALADA OPERATIVA MÓDULO 1 
+          tbody
+            tr
+              td.text-center Variable
+              td.text-center Nro. de Personas de M.O.D
+              td.text-center Jornada de trabajo
+              td.text-center Constante días producción
+              td.text-center Total, minutos operativos instalados 
+            tr
+              td.text-center Hora
+              td.text-center 9
+              td.text-center 60
+              td.text-center 1
+              td.text-center 540
+            tr
+              td.text-center Día
+              td.text-center 9
+              td.text-center 480
+              td.text-center 1
+              td.text-center 4.320
+            tr
+              td.text-center Mes
+              td.text-center 9
+              td.text-center 480
+              td.text-center 24
+              td.text-center 103.680
+      .tabla-a.color-secundario.mb-5 
+        table
+          thead
+            tr 
+              th(colspan="5").text-center CAPACIDAD INSTALADA OPERATIVA MÓDULO 2
+          tbody
+            tr
+              td.text-center Variable
+              td.text-center Nro. de Personas de M.O.D
+              td.text-center Jornada de trabajo
+              td.text-center Constante días producción
+              td.text-center Total, minutos operativos instalados 
+            tr
+              td.text-center Hora
+              td.text-center 8
+              td.text-center 60
+              td.text-center 1
+              td.text-center 480
+            tr
+              td.text-center Día
+              td.text-center 8
+              td.text-center 480
+              td.text-center 1
+              td.text-center 3.840
+            tr
+              td.text-center Mes
+              td.text-center 8
+              td.text-center 480
+              td.text-center 24
+              td.text-center 92.160
+      .tabla-a.color-acento-botones.mb-5 
+        table
+          thead
+            tr 
+              th(colspan="5").text-center CAPACIDAD INSTALADA OPERATIVA ÁREA DE EMPAQUE 
+          tbody
+            tr
+              td.text-center Variable
+              td.text-center Nro. de Personas de M.O.D
+              td.text-center Jornada de trabajo
+              td.text-center Constante días producción
+              td.text-center Total, minutos operativos instalados 
+            tr
+              td.text-center Hora
+              td.text-center 14
+              td.text-center 60
+              td.text-center 1
+              td.text-center 840
+            tr
+              td.text-center Día
+              td.text-center 14
+              td.text-center 480
+              td.text-center 1
+              td.text-center 6.7200
+            tr
+              td.text-center Mes
+              td.text-center 14
+              td.text-center 480
+              td.text-center 24
+              td.text-center 161.280
+    .row.bg14.justify-content-center.align-items-center.p-5.mb-5
+      .col-md-3.col-12.p-3
+        img(src='@/assets/curso/tema1/img57.png')
+      .col-md-9.col-12
+        p En la interpretación técnica es posible evidenciar que el Módulo 1 con 9 personas, aporta 540 minutos en una hora, 4.320 minutos en un día y 103.680 minutos en un mes. Igualmente se muestran los resultados en el Módulo 2 y el Área de Empaque. De esta forma, se presentan múltiples usos que poseen estos datos numéricos para la planeación de la producción en la empresa. 
+    .row.mb-5.justify-content-center.align-items-center(data-aos="fade-left")
+      .col-lg-7
+        .bloque-texto-c.color-secundario.p-4
+          i.fas.fa-quote-right
+          p.mb-3 En síntesis, la capacidad instalada operativa se asocia a las personas, lo cual se define como el número de minutos que se obtiene del personal de mano de obra directa, utilizando como variables la jornada de trabajo y el número de días productivos por mes que en promedio suman 24 días. 
+          span  #[b (OIT, 1996)].
+      .col-lg-5.mb-4.mb-lg-0
+        img(src='@/assets/curso/tema1/img58.png').m-auto
+    .row.mb-2.align-items-center
+      .col-lg-5.bg1.p-3.mb-5
+        h3.text-white.text-center.mb-0 Carga instalada o minutos de producción
+    .row.mb-5.justify-content-center.align-items-center(data-aos="fade-left")
+      .col-lg-12.mb-5.mb-lg-0
+        .bloque-texto-d.color-secundario.p-4
+          .bloque-texto-b__texto.mb-2
+            i.fas.fa-quote-left
+            h3.text-regular Se asocia al tiempo que aporta una orden de producción específica, con base en el tiempo estándar y el número de unidades programadas en ella. Los minutos de producción aportan inventario de carga de tiempo para realizar la planeación y la programación de la planta de producción, ya sea horaria, diaria, semanal, entre otros.
+            i.fas.fa-quote-right
+          .bloque-texto-d__autor 
+            .h6.mb-0 (Valverde Chifla, 2014).
+    .bg16
+      p.mb-5 Para realizar su cálculo se emplean las siguientes #[span.txt-color2 variables]:
+      .row.justify-content-center.align-items-center.mb-5
+        .col-sm-6.col-lg-4.mb-4.mb-lg-0
+          .tarjeta--boton1.bg8.text-white.p-5.alt
+            .row.justify-content-center.mb-0
+              .col-12
+                figure
+                  img(src='@/assets/curso/tema1/img60.png', alt='Texto que describa la imagen')
+            h3.text-center Número de Unidades de la orden de producción
+            p Se define como el total de unidades asociadas a una orden de producción específica.
+        .col-lg-1
+        .col-sm-6.col-lg-4.mb-4.mb-lg-0
+          .tarjeta--boton1.bg8.text-white.p-5.alt
+            .row.justify-content-center.mb-0
+              .col-12
+                figure
+                  img(src='@/assets/curso/tema1/img61.png', alt='Texto que describa la imagen')
+            h3.text-center Tiempo estándar de la prenda
+            p Es la unidad de medida de tiempo en minutos de una prenda de vestir, se obtiene mediante un estudio de métodos y tiempos que da como resultado precisamente el tiempo estándar de la prenda.
+      p.mb-5 Así, para determinar la #[span.txt-color2 Carga Instalada o minutos de Producción] se debe realizar la siguiente #[span.txt-color2 fórmula]:
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        figure
+          img.img(src='@/assets/curso/tema1/img62.svg', alt='Texto que describa la imagen')
+    p.mb-5 Con el siguiente ejemplo ilustrativo, se puede comprender un poco más acerca de la carga instalada o minutos de producción aplicada al contexto laboral:
+    .row.mb-2.align-items-center
+      .col-lg-3.bg1.p-3.mb-5
+        h3.text-white.text-center.mb-0 Manufacturamos Prendas S.A.S.
+    .row.bg17.justify-content-center.align-items-center.p-5
+      .col-md-3.col-12.p-3
+        img(src='@/assets/curso/tema1/img64.svg')
+      .col-md-6.col-12
+        p La empresa tiene una planta de manufactura y cuenta con dos módulos de ensamble que poseen personal de mano de obra directa de  9 y 8 personas respectivamente;  y un módulo en el área de empaque con 14 personas. 
+    .row.bg13.justify-content-center.align-items-center.p-5.mb-5
+      .tabla-a.color-acento-contenido.mb-5 
+        table
+          thead
+            tr 
+              th(colspan="8").text-center CAPACIDAD INSTALADA OPERATIVA MÓDULO 1 
+          tbody
+            tr
+              td.text-center Fecha de ingreso
+              td.text-center Referencia
+              td.text-center Descripción
+              td.text-center Orden de producción
+              td.text-center Número de unidades   orden producción
+              td.text-center Tiempo estándar
+              td.text-center Total minutos de producción 
+              td.text-center Fecha de despacho
+            tr
+              td.text-center 7/07/2021
+              td.text-center 434343
+              td.text-center Blusa Irina
+              td.text-center 102323
+              td.text-center 457
+              td.text-center 12,3
+              td.text-center 5621,1
+              td.text-center 18/07/2021
+            tr
+              td.text-center 8/07/2021
+              td.text-center 434344
+              td.text-center Blusa lunar
+              td.text-center 102324
+              td.text-center 535
+              td.text-center 15,4
+              td.text-center 8239
+              td.text-center 19/07/2021
+            tr
+              td.text-center 9/07/2021
+              td.text-center 434345
+              td.text-center Blusa angelical
+              td.text-center 102325
+              td.text-center 840
+              td.text-center 9,81
+              td.text-center 8.240,4
+              td.text-center 21/07/2021
+            tr
+              td.text-center 10/07/2021
+              td.text-center 434346
+              td.text-center Blusa triangular
+              td.text-center 102326
+              td.text-center 1.241
+              td.text-center 10,5
+              td.text-center 13,030,5
+              td.text-center 22/07/2021
+    .row.bg18.justify-content-center.align-items-center.p-5.mb-5
+      .col-md-2.col-12.p-3
+        img(src='@/assets/curso/tema1/img67.svg').mx-auto
+      .col-md-9.col-12
+        p En la tabla, es posible conocer la fecha de ingreso de las órdenes de producción con sus respectivas referencias, descripción, número de unidades, tiempo estándar, total de minutos de producción y la fecha de despacho.
 
-
-
+    .row.bg19.justify-content-center.align-items-center.p-5.mb-5
+      .col-md-2.col-12.p-3
+        img(src='@/assets/curso/tema1/img68.svg').mx-auto
+      .col-md-9.col-12
+        p A partir de la información suministrada se puede interpretar técnicamente que la referencia 434343 con orden de producción número 102223, aporta al proceso un total de 5.621,1 minutos o que la referencia 434346 con orden de producción número 102226, aporta al proceso un total de 13.030,5 minutos. 
+        p.mb-4 De esta manera, los datos presentados en este formato se convierten en el insumo vital para planear y programar en la planta de producción.
+    .row.mb-2.align-items-center
+      .col-lg-6.bg1.p-3.mb-5
+        h3.text-white.text-center.mb-0 Carga instalada en minutos técnicos. Horas máquina
+    .row.mb-5.justify-content-center.align-items-center(data-aos="fade-left")
+      .col-lg-7
+        .bloque-texto-d.color-secundario.p-0
+          .bloque-texto-b__texto.mb-0
+            i.fas.fa-quote-left
+            h3.text-regular Se asocia a la diversidad de máquinas con que cuentan las plantas de manufactura, aunque esta carga es poco empleada para protocolos de programación, los minutos técnicos muestran las restricciones que tienen las empresas con respecto a la maquinaria. Igual que los anteriores tipos de cargas, son los minutos asociados al parque de inventario disponible durante una jornada de trabajo, igualmente al tiempo que aportan los recursos de guías y accesorios que acompañan al departamento de producción, además de la calidad y áreas de montaje del producto.
+            i.fas.fa-quote-right
+          .bloque-texto-d__autor.mb-5 
+            .h6.mb-0 (Valverde Chifla, 2014).
+        p.p-3.bg5 Si bien una persona puede ser remplazada en el proceso, no pasa lo mismo con la no disponibilidad de una máquina, puesto que esta situación puede acarrear caos al proceso y baja en el índice de productividad de la compañía. 
+      .col-lg-5.mb-4.mb-lg-0
+        img(src='@/assets/curso/tema1/img69.png').m-auto
+    .bg16
+      p.mb-5 Para realizar su cálculo se emplean las siguientes #[span.txt-color2 variables]:
+      .row.justify-content-center.align-items-center.mb-5
+        .col-sm-6.col-lg-4.mb-4.mb-lg-0
+          .tarjeta--boton1.bg8.text-white.p-5.alt
+            .row.justify-content-center.mb-0
+              .col-12
+                figure
+                  img(src='@/assets/curso/tema1/img70.png', alt='Texto que describa la imagen')
+            h3.text-center Número de Unidades de la orden de producción
+            p Se define como el total de unidades asociadas a una orden de producción específica.
+        .col-lg-1
+        .col-sm-6.col-lg-4.mb-4.mb-lg-0
+          .tarjeta--boton1.bg8.text-white.p-5.alt
+            .row.justify-content-center.mb-0
+              .col-12
+                figure
+                  img(src='@/assets/curso/tema1/img71.png', alt='Texto que describa la imagen')
+            h3.text-center Jornada de trabajo
+            p Periodo de tiempo estimado en la normatividad del Código Sustantivo del Trabajo colombiano, en el que se determinan un número de minutos horarios o diarios.
+      p.mb-5 Así, para determinar la #[span.txt-color2 Carga Instalada en minutos Técnicos] se debe realizar la siguiente #[span.txt-color2 fórmula]:
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        figure
+          .col-md-3.col-6.mb-md-0.mb-4.bg20
+    Separador
+    #t_1_5
+    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 1.5 Producción por lotes u órdenes de producción
+    p Se define una orden de producción como una estructura de costos asociada a un número determinado de unidades o la instrucción para la ejecución de un servicio. 
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-3.bg20.px-5.ps-5.pb-3(data-aos="fade-right")  
+        p.p-3 Se elabora un listado de todos los requerimientos para poder elaborar el producto o prestar el servicio.
+      .col-lg-3.mb-4
+        .tarjeta--boton.bg22.text-white.px-5.ps-5.pb-3
+          .row.justify-content-center.mb-0
+            .col-lg-8
+              figure
+                img(src='@/assets/curso/tema1/img76.svg', alt='Texto que describa la imagen')
+            h3.text-center Costos por órdenes de producción
+            p Es una estrategia para separar una matriz  de compra de otra, así sea similar.
+      .col-lg-3.bg21.px-5.ps-5.pb-3(data-aos="fade-left")  
+        p.p-3 Una  infraestructura digital o manual, asigna los valores monetarios para que los líderes de procesos den como resultado final y preciso el precio de venta.
+    p.mb-4 Empleamos este sistema cuando se fabrican pedidos especiales cerrados, cumpliendo con unas especificaciones precisas y personalizadas de un cliente. La materia prima, los insumos y ciertos conocimientos aplicados son especiales, por tanto los costos son separados de otras órdenes así sean similares, entre otros ejemplos, joyería, muebles, fiestas, eventos, vestuario a medida, una vivienda. Este sistema es uno de los más empleados por su eficacia y precisión.        
+    .row.mb-2.align-items-center
+      .col-lg-3.bg1.p-3.mb-5
+        h3.text-white.text-center.mb-0 Sistemas de inventarios 
+    p Un inventario representa la existencia de bienes muebles e inmuebles que tiene la empresa para comerciar con ellos, comparándolos y vendiéndolos tal cual o procesándolos primero antes de venderlos, en un período económico determinado. El sistema de inventarios permite registrar la cantidad de mercancía existente en una empresa y así mismo determinar el costo de los productos vendidos. Existen varios tipos de sistemas de inventarios, entre ellos se encuentran:
+      
 
 
       
