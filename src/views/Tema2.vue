@@ -148,9 +148,9 @@
             figure
               img(src='@/assets/curso/tema2/img13.svg').m-auto
     Separador
-    #t_2_1
+    #t_2_2
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 2.1 Requerimientos para un Plan maestro de Producción 
+      h2 2.2 Requerimientos para un Plan maestro de Producción 
     p Se podría definir la palabra Producción, como el conjunto de actividades que agregan valor al proceso, para obtener un bien o un servicio. Ejemplo: un rollo de tela solo, no es mucho, si se le acerca un molde, luego se corta, luego se estampan las piezas, luego se confeccionan o ensamblan, luego se lavan o tiñen, se pulen, se doblan, etc., a medida que se realiza cada actividad, ésta le va agregando valor y la va enriqueciendo, hasta finalizar en una prenda de vestir.
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -212,7 +212,101 @@
                   img(src='@/assets/curso/tema2/img22.svg', style="width: 170px").m-auto
               .col-lg-5.mb-4
                 p #[span.txt-color2 Control de plantas]: hacer seguimiento para verificar el cumplimiento de los planes elaborados.
-          
+    Separador
+    #t_2_3
+    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 2.3 Resultados del Plan Maestro de Producción PMP
+    p Elaborar un PMP de manera correcta ayuda a interpretar, visualizar y establecer:
+    .bg20             
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-7(data-aos="fade-right")
+          ol.lista-ol--cuadro.lista-ol--separador
+            li 
+              .lista-ol--cuadro__vineta
+                span a
+              p.mb-0 #[b Volumen de producción a procesar]: Ayuda a obtener de una manera muy acertada, las cantidades de productos a elaborar.
+            li 
+              .lista-ol--cuadro__vineta
+                span b
+              p.mb-0 #[b Fechas Límites de entrega]: Además de saber las cantidades, el PMP también ayuda a definir las fechas de entrega, de acuerdo a los recursos disponibles.
+            li 
+              .lista-ol--cuadro__vineta
+                span c
+              p.mb-0 #[b Información actual de los inventarios]: Cuando se tiene la información anterior se puede establecer las cantidades actuales y necesarias que se tiene en inventario disponible, y si no ayuda a tomar decisiones acertadas en ese aspecto.
+            li 
+              .lista-ol--cuadro__vineta
+                span d
+              p.mb-0 #[b Pedidos vs Capacidad Instalada = Capacidad disponible]: Definitivo, si se conoce las capacidades de producción y las cantidades demandadas, se pueden establecer fechas de entrega más acertadas, o se pueden tomar acciones de aumentar la capacidad de producción.
+            li 
+              .lista-ol--cuadro__vineta
+                span e
+              p.mb-0 #[b Mejor acompañamiento a la producción]: Cuando se dimensionan los procesos de fabricación, las cantidades, y las fechas, y las comparamos con los presupuestos de demandas y pedidos, se puede visualizar de una manera más fácil todas las actividades, y se pueden tomar acciones de mejora más oportunas.
+            li 
+              .lista-ol--cuadro__vineta
+                span f
+              p.mb-0 #[b Mejor aprovechamiento de los recursos]: A veces se requiere dar prioridades a ciertos pedidos, mediante un PMP, se puede identificar fortalezas y/o restricciones, y de esa manera utilizar a favor esas condiciones.
+            li 
+              .lista-ol--cuadro__vineta
+                span g
+              p.mb-0 #[b Medir desempeños]: De acuerdo a los despachos esperados y los reales se pueden medir eficiencias.
+            li 
+              .lista-ol--cuadro__vineta
+                span h
+              p.mb-0 #[b Cálculo de Costos]: El PMP proporciona datos que ayudan a calcular utilización de recursos, por ende, de costos, y finalmente sirve hasta para fijar precios de venta.
+        .col-lg-5
+          figure
+            img.mb-5(src='@/assets/curso/tema2/img24.png')(data-aos="fade-left")
+    Separador
+    #t_2_4
+    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 2.4 Como elaborar un Plan Maestro de Producción PMP
+    .row.mb-5.justify-content-center.align-items-center(data-aos="fade-left")
+      .col-lg-8
+        p Cuando hablamos de plan maestro de producción (PMP), hacemos referencia a la construcción de una herramienta estratégica gerencial, método de planificación en una línea de trabajo a corto tiempo.  La realización y aplicación de esta herramienta, direcciona trazabilidad y busca establecer los recursos necesarios para satisfacer la demanda esperada de una empresa. Podemos decir que, el PMP después de tener un pronóstico de la demanda, define la tasa de producción y mano de obra requerida.
+        p El (PMP), se refiere, al proceso de asociar toda la información pertinente para luego ser procesada, definiendo unidades de medida, es decir se trata de sincronizar el flujo de la producción versus demanda cambiante, para ir ajustando el horizonte de planificación determinada por la gerencia estratégica de la empresa
+        p.p-3.bg5 #[b  Ver en el material complementario los videos de ¿Cómo elaborar un Plan Maestro de Producción? y un ejemplo en Excel, que servirán de guía y apoyo para elaborar un Plan Maestro de Producción.] 
+      .col-lg-4.mb-4.mb-lg-0
+        img(src='@/assets/curso/tema2/img25.svg').m-auto
+    p Se puede concluir qué en un plan maestro de producción PMP, es importante contar con la siguiente información y saber de dónde proviene:
+    SlyderF(columnas="col-lg-6 col-xl-4")
+      .tarjeta-avatar
+        img(src='@/assets/curso/tema2/img26.svg' alt='AvatarTop')
+        .tarjeta.color-primario4.som
+          .p-4
+            h4.text-center El Inventario Inicial:
+            p.mb-0v.text-center Para visualizar en la línea de horizonte, el número de unidades a producir y en que fechas, es importante saber cuántas unidades tengo en inventario, antes de iniciar. 
+      .tarjeta-avatar
+        img(src='@/assets/curso/tema2/img27.svg' alt='AvatarTop')
+        .tarjeta.color-primario4
+          .p-4
+            h4.text-center El Inventario Final: 
+            p.mb-0.text-center Después de analizar un período y realizar los movimientos necesarios, como por ejemplo, producir y despachar unidades, queda un inventario final que al mismo tiempo, es el inventario inicial del siguiente período.
+      .tarjeta-avatar
+        img(src='@/assets/curso/tema2/img28.svg' alt='AvatarTop')
+        .tarjeta.color-primario4
+          .p-4
+            h4.text-center Los pronósticos de demanda o presupuestos de venta: 
+            pmb-0.text-center son las cantidades por producto que se estiman se van a vender en determinado período, se realizan con datos históricos o estudios de mercadeo, entre otros.
+      .tarjeta-avatar
+        img(src='@/assets/curso/tema2/img29.svg' alt='AvatarTop')
+        .tarjeta.color-primario4
+          .p-4
+            h4.text-center Los pedidos: 
+            p.mb-0.text-center Después de haber interactuado con los clientes se establecen las cifras o cantidades de los pedidos en firme, es ahí donde el PMP entra a ser importante, ya que ayuda a definir las fechas en que se pueden entregar los pedidos, y si esas fechas no son satisfactorias, empezar a tomar acciones de mejora.
+      .tarjeta-avatar
+        img(src='@/assets/curso/tema2/img30.svg' alt='AvatarTop')
+        .tarjeta.color-primario4
+          .p-4
+            h4.text-center La cantidad de unidades por lote:
+            p.mb-0.text-center Las organizaciones, de acuerdo a los insumos y materias primas que utilizan y la manera y las fechas en que se los entregan, determinan sus niveles de inventario. También se tiene en cuenta los productos de más frecuencia en su demanda y eso lleva a las empresas a determinar políticas en la cantidad de unidades que van a manejar por lote.
+      .tarjeta-avatar
+        img(src='@/assets/curso/tema2/img31.svg' alt='AvatarTop')
+        .tarjeta.color-primario4
+          .p-4
+            h4.text-center Los períodos que se van a considerar o visualizar: 
+            p.mb-0.text-center Cuándo se van a realizar cálculos de producción mediante herramientas como el PMP, es importante definir cuál es el rango de tiempo que se va a atender, para esta metodología se tienen rangos cortos de tiempo, como semanas, quincenas, o meses.
+      
+  
 
 
 </template>
