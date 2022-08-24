@@ -343,51 +343,51 @@
             .row.align-items-center
               .col-lg-5.mb-4
                 p Definir el sistema de producción que se va a utilizar.
-              .col-lg-2
+              .col-auto
                 figure
-                  img(src='@/assets/curso/tema1/img35.svg')
+                  img(src='@/assets/curso/tema1/img35.svg', style="width: 170px").m-auto
           div
             .row.align-items-center.justify-content-end
-              .col-lg-2
+              .col-auto
                 figure
-                  img(src='@/assets/curso/tema1/img36.svg')
+                  img(src='@/assets/curso/tema1/img36.svg', style="width: 170px").m-auto
               .col-lg-5.mb-4
                 p Elaborar un listado de actividades u operaciones: las operaciones, la naturaleza de ellas, los tiempos estándar, y la ubicación de los puestos de trabajo, son una información importante para construir secuencias operacionales. 
           div
             .row.align-items-center
               .col-lg-5.mb-4
                 p Establecer cuales equipos y cuales materiales se van a emplear.
-              .col-lg-2
+              .col-auto
                 figure
-                  img(src='@/assets/curso/tema1/img37.svg')
+                  img(src='@/assets/curso/tema1/img37.svg', style="width: 170px").m-auto
           div
             .row.align-items-center.justify-content-end
-              .col-lg-2
+              .col-auto
                 figure
-                  img(src='@/assets/curso/tema1/img38.svg')
+                  img(src='@/assets/curso/tema1/img38.svg', style="width: 170px").m-auto
               .col-lg-5
                 p Calcular las personas de acuerdo al volumen de la demanda y las operaciones; las personas y los horarios definen la capacidad productiva.
           div
             .row.align-items-center
               .col-lg-5.mb-4
                 p Asignar el sitio a los elementos a utilizar, o sea, organizar la distribución en planta: esto requiere consideraciones como el área de la cual se dispone, los inventarios que se manejan, y las áreas con las que se relacionan o se apoyan. Se organiza la planta de acuerdo a la línea de producción, igualmente la prestación del servicio.
-              .col-lg-2
+              .col-auto
                 figure
-                  img(src='@/assets/curso/tema1/img39.svg')
+                  img(src='@/assets/curso/tema1/img39.svg', style="width: 170px").m-auto
           div
             .row.align-items-center.justify-content-end
-              .col-2
+              .col-auto
                 figure
-                  img(src='@/assets/curso/tema1/img40.svg')
+                  img(src='@/assets/curso/tema1/img40.svg', style="width: 170px").m-auto
               .col-lg-5.mb-4
                 p Determinar cuáles controles de trazabilidad se van a realizar para hacerle seguimiento a la secuencia operacional.
           div
             .row.align-items-center
               .col-lg-5.mb-4
                 p De acuerdo al servicio o sistema de producción que se utiliza, se debe acordar la secuencia operacional, y ese sistema está definido por el tipo de producto, el tamaño de la empresa, la infraestructura tecnológica y digital incorporada en los equipos y los materiales que se utilizan, entre otros.
-              .col-2
+              .col-auto
                 figure
-                  img(src='@/assets/curso/tema1/img41.svg')
+                  img(src='@/assets/curso/tema1/img41.svg', style="width: 170px").m-auto
     .row.mb-2.align-items-center
       .col-lg-5.bg1.p-3.mb-5
         h3.text-white.text-center.mb-0 Ventajas de la Secuencia operacional
@@ -764,7 +764,7 @@
           img.img(src='@/assets/curso/tema1/img62.svg', alt='Texto que describa la imagen')
     p.mb-5 Con el siguiente ejemplo ilustrativo, se puede comprender un poco más acerca de la carga instalada o minutos de producción aplicada al contexto laboral:
     .row.mb-2.align-items-center
-      .col-lg-3.bg1.p-3.mb-5
+      .col-lg-4.bg1.p-3.mb-5
         h3.text-white.text-center.mb-0 Manufacturamos Prendas S.A.S.
     .row.bg17.justify-content-center.align-items-center.p-5
       .col-md-3.col-12.p-3
@@ -881,8 +881,13 @@
       h2 1.5 Producción por lotes u órdenes de producción
     p Se define una orden de producción como una estructura de costos asociada a un número determinado de unidades o la instrucción para la ejecución de un servicio. 
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-3.bg20.px-5.ps-5.pb-3(data-aos="fade-right")  
-        p.p-3 Se elabora un listado de todos los requerimientos para poder elaborar el producto o prestar el servicio.
+      .col-lg.align-items-center
+        .row
+          .col.bg3(data-aos="fade-left").mb-4
+            p.mt-3 Se elabora un listado de todos los requerimientos para poder elaborar el producto o prestar el servicio.
+          .col-lg-1.px-0
+            figure
+              img.img26.d-none.d-lg-block(src='@/assets/curso/tema1/img73.svg')
       .col-lg-3.mb-4
         .tarjeta--boton.bg22.text-white.px-5.ps-5.pb-3
           .row.justify-content-center.mb-0
@@ -891,15 +896,111 @@
                 img(src='@/assets/curso/tema1/img76.svg', alt='Texto que describa la imagen')
             h3.text-center Costos por órdenes de producción
             p Es una estrategia para separar una matriz  de compra de otra, así sea similar.
-      .col-lg-3.bg21.px-5.ps-5.pb-3(data-aos="fade-left")  
-        p.p-3 Una  infraestructura digital o manual, asigna los valores monetarios para que los líderes de procesos den como resultado final y preciso el precio de venta.
-    p.mb-4 Empleamos este sistema cuando se fabrican pedidos especiales cerrados, cumpliendo con unas especificaciones precisas y personalizadas de un cliente. La materia prima, los insumos y ciertos conocimientos aplicados son especiales, por tanto los costos son separados de otras órdenes así sean similares, entre otros ejemplos, joyería, muebles, fiestas, eventos, vestuario a medida, una vivienda. Este sistema es uno de los más empleados por su eficacia y precisión.        
-    .row.mb-2.align-items-center
-      .col-lg-3.bg1.p-3.mb-5
+      .col-lg.align-items-center
+        .row
+          .col-lg-1.px-1
+            figure
+              img.img26.d-none.d-lg-block(src='@/assets/curso/tema1/img74.svg')
+          .col.bg5(data-aos="fade-left")
+            p.mt-3 Una  infraestructura digital o manual, asigna los valores monetarios para que los líderes de procesos den como resultado final y preciso el precio de venta.
+    p.mb-5 Empleamos este sistema cuando se fabrican pedidos especiales cerrados, cumpliendo con unas especificaciones precisas y personalizadas de un cliente. La materia prima, los insumos y ciertos conocimientos aplicados son especiales, por tanto los costos son separados de otras órdenes así sean similares, entre otros ejemplos, joyería, muebles, fiestas, eventos, vestuario a medida, una vivienda. Este sistema es uno de los más empleados por su eficacia y precisión.        
+    .row.mb-5.align-items-center
+      .col-lg-4.bg1.p-3
         h3.text-white.text-center.mb-0 Sistemas de inventarios 
     p Un inventario representa la existencia de bienes muebles e inmuebles que tiene la empresa para comerciar con ellos, comparándolos y vendiéndolos tal cual o procesándolos primero antes de venderlos, en un período económico determinado. El sistema de inventarios permite registrar la cantidad de mercancía existente en una empresa y así mismo determinar el costo de los productos vendidos. Existen varios tipos de sistemas de inventarios, entre ellos se encuentran:
-      
-
+    .tarjeta.tarjeta--azul1.p-4.mb-5
+      SlyderA(tipo="b")(data-aos="fade-right")
+        .row.align-items-center.justify-content-center
+          .col-lg-5.mb-4.mb-lg-0.ps-5
+            p #[b El sistema de inventario perpetuo o permanente:]
+            p En el sistema de inventario perpetuo, el negocio mantiene un registro continuo para cada artículo del inventario. Estos registros muestran el inventario disponible todo el tiempo y son útiles para preparar los estados financieros mensuales, trimestral o provisionalmente. Este sistema le permite al negocio determinar el costo del inventario final y el costo de las mercancías vendidas directamente de las cuentas contables, sin tener que hacer conteo físico del inventario.
+          .col-lg-7.ps-4
+            figure
+              img(src='@/assets/curso/tema1/img77.png')
+        .row.align-items-center
+          .col-lg-5.mb-4.mb-lg-0.ps-5
+            p #[b El sistema de inventario periódico:]
+            p En el sistema de inventario periódico o conocido también como sistema físico, la empresa no mantiene un registro continuo del inventario disponible; más bien al final del periodo, la empresa hace un conteo físico del inventario disponible y aplica los costos unitarios para determinar el costo del inventario final. Esta cifra del conteo físico del inventario es la que aparece en el Balance General. Se utiliza también para calcular el costo de las mercancías vendidas. 
+          .col-lg-7.ps-4
+            figure
+              img(src='@/assets/curso/tema1/img78.png')
+        .row.align-items-center
+          .col-lg-5.mb-4.mb-lg-0.ps-5
+            p-3 El sistema periódico es generalmente utilizado para contabilizar los artículos del inventario que tienen un costo unitario bajo. Los artículos de bajo costo pueden no ser lo suficientemente valiosos para garantizar el costo de llevar un registro al día del inventario disponible. 
+            p Para usar este sistema con efectividad, el propietario debe tener la capacidad de controlar el inventario mediante la inspección visual. Por ejemplo, cuando un cliente le solicita ciertas cantidades disponibles, el dueño o administrador debe ser capaz de visualizar las mercancías existentes.
+          .col-lg-7.ps-4
+            figure
+              img(src='@/assets/curso/tema1/img79.png')
+    .row.mb-5.justify-content-center
+      .col-10.bg3.p-4
+        .row.align-items-center.justify-content-center
+          .col-lg-11
+            p.mb-0 Para ampliar estos conceptos sobre los inventarios en una empresa, consultar en el material complementario el sitio web de Gestiopolis la publicación de #[span.txt-color2 Rebeca Martinez (2001) sobre “El inventario”].
+          .col-lg-1.mb-3
+            figure
+              img(src='@/assets/curso/tema1/img80.svg').mx-auto(data-aos="fade-right")
+    .row.mb-2.align-items-center
+      .col-lg-3.bg1.p-3.mb-5
+        h3.text-white.text-center.mb-0 Control de inventario en proceso
+    .row.mb-5.justify-content-center.align-items-center(data-aos="fade-left")
+      .col-lg-7
+        p Los inventarios entonces necesitan ser clasificados debido a su importancia ya que para el administrador la información que suministran tiene que ver con su manejo y esto requiere uso de recursos, personal y dinero. La limitante entonces está en que los recursos son limitados y muchas veces se tiene gran número de inventarios.
+        p.p-3.bg5 Si bien una persona puede ser remplazada en el proceso, no pasa lo mismo con la no disponibilidad de una máquina, puesto que esta situación puede acarrear caos al proceso y baja en el índice de productividad de la compañía. 
+        p Los inventarios son importantes para los fabricantes en general, y varían ampliamente entre los distintos grupos de industrias. La composición de esta parte del activo es una gran variedad de artículos, y es por eso que se han clasificado de acuerdo a su utilización en los siguientes tipos: 
+      .col-lg-5.mb-4.mb-lg-0
+        img(src='@/assets/curso/tema1/img81.svg').m-auto
+    .row.align-items-center.mb-5
+      .col-lg-12
+        AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+          .row(titulo="Inventario de materias primas")
+            .col-12
+              .row.align-items-center
+                .col-md-10.align-items-center
+                  p.ps-5 Lo conforman todos los materiales con los que se elaboran los productos, pero que todavía no han recibido procesamiento. La materia prima, es aquel o aquellos artículos sometidos a un proceso de fabricación que al final se convertirá en un producto terminado.
+                  p.ps-5 En toda actividad industrial concurren una variedad de artículos (materias primas) y materiales, los que serán sometidos a un proceso para obtener al final un artículo terminado o acabado. A los materiales que intervienen en mayor grado en la producción se les considera "materia prima", ya que son utilizadas en cantidades lo suficientemente importantes para lograr el producto acabado.
+                .col-lg-2.col-md-6.col-12.p-0
+                  figure
+                    img(src='@/assets/curso/tema1/img82.svg', alt='Texto que describa la imagen').mx-auto
+          .row(titulo="Inventario de productos en proceso")
+            .col-12
+                .row.align-items-center
+                  .col-md-10.align-items-center
+                    p.ps-5 Lo integran todos aquellos bienes adquiridos por las empresas manufactureras o industriales, los cuales se encuentran en proceso de manufactura. Su cuantificación se hace por la cantidad de materiales, mano de obra y gastos de fabricación, aplicables a la fecha de cierre.
+                    p.ps-5 El inventario de productos en proceso consiste en todos los artículos o elementos que se utilizan en el actual proceso de producción. Es decir, son productos parcialmente terminados que se encuentran en un grado intermedio de producción y a los cuales se le aplicó la labor directa y gastos indirectos inherentes al proceso de producción en un momento determinado. Una de las características del Inventario de producción en proceso es que va aumentando el valor a medida que es transformado de materia prima en el producto terminado como consecuencia del proceso de producción. 
+                  .col-lg-2.col-md-6.col-12.p-0
+                    figure
+                      img(src='@/assets/curso/tema1/img83.svg').mx-auto
+          .row(titulo="Inventario de productos terminados")
+            .col-12
+              .row.align-items-center
+                .col-md-10.align-items-center
+                  p.ps-5 Son todos aquellos bienes adquiridos por las empresas manufactureras o industriales, los cuales son transformados para ser vendidos como productos elaborados, comprenden estos, los artículos transferidos por el departamento de producción al almacén de productos terminados por haber alcanzado su grado de terminación total y que a la hora de la toma física de inventario se encuentren aún en los almacenes, es decir, los que todavía no han sido vendidos. El nivel de inventario de productos terminados va a depender directamente de las ventas, su nivel está dado por la demanda. 
+                  p.ps-5 
+                .col-lg-2.col-md-6.col-12.p-0
+                  figure
+                    img(src='@/assets/curso/tema1/img84.svg').mx-auto
+          .row(titulo="Inventario de materiales y suministros")
+            .col-12
+              .row.align-items-center
+                .col-md-10.align-items-center
+                  p.ps-5 Son los materiales con los que se elaboran los productos, pero que no pueden ser cuantificados de una manera exacta en el inventario de materiales y suministros se incluye: 
+                  p.ps-5 -	Materias primas secundarias, (Pintura, lija, clavos, lubricantes, etc.). Sus especificaciones varían según el tipo de industria, un ejemplo para la industria cervecera es sales para tratamiento de agua. 
+                  p.ps-5 -	Artículos de consumo destinados para ser usados en la operación de la industria; dentro de estos artículos de consumo los más importantes son los destinados a las operaciones y están formados por los combustibles y lubricantes, estos en la industria tienen gran significación. 
+                  p.ps-5 -	Los artículos y materiales de reparación y mantenimiento de las maquinarias y aparatos operativos. Estos   artículos de reparación por su gran volumen, necesitan ser controlados adecuadamente y la existencia de estos varía en relación a sus necesidades. 
+                .col-lg-2.col-md-6.col-12.p-0
+                  figure
+                    img(src='@/assets/curso/tema1/img85.svg').mx-auto
+          .row(titulo="Inventario de mercancías")
+            .col-12
+              .row.align-items-center
+                .col-md-10.align-items-center
+                  p.ps-5 Constituye la existencia, a precio de costo, de los artículos comprados o producidos por la empresa, para su comercialización. Se incluyen en el inventario todas las mercancías de propiedad de la empresa que se encuentran en el almacén, bodegas, en tránsito (cuando la compañía ha comprado fuera del país) o entregadas en consignación, se excluyen las que no son propiedad de la empresa pero que se han recibido en consignación o están vendidas y aún no se han llevado al cliente.
+                  p.ps-5 En las empresas comerciales, cuyo objeto es la compra – venta, esta cuenta (inventarios) es lo que genera utilidades, por lo que los inventarios deben ser valorados y controlados técnicamente. 
+                .col-lg-2.col-md-6.col-12.p-0
+                  figure
+                    img(src='@/assets/curso/tema1/img85.svg').mx-auto
+          
+        
 
       
 </template>
