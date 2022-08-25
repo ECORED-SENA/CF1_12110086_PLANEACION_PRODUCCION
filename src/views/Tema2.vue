@@ -271,7 +271,7 @@
     SlyderF(columnas="col-lg-6 col-xl-4")
       .tarjeta-avatar
         img(src='@/assets/curso/tema2/img26.svg' alt='AvatarTop')
-        .tarjeta.color-primario4.som
+        .tarjeta.color-primario4
           .p-4
             h4.text-center El Inventario Inicial:
             p.mb-0v.text-center Para visualizar en la línea de horizonte, el número de unidades a producir y en que fechas, es importante saber cuántas unidades tengo en inventario, antes de iniciar. 
