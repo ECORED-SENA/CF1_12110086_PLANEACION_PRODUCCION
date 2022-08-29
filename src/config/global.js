@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Planeación y Plan Maestro de la producción',
     descripcionCurso:
-      'En la planeación de la capacidad productiva y las cargas de trabajo, la estrategia es determinar qué tan preciso puede ser el equilibrio de los tres principales recursos de un proceso logístico, las personas, la infraestructura tecnológica y digital y las materias primas. <br> Este componente hará referencia a un tema muy importante para las plantas de producción: el Plan maestro de producción, que permite comprender qué se va a hacer  en un período determinado y el nivel de trazabilidad porcentual, servicios o unidades que se pueden procesar de manera eficiente.',
+      'En la planeación de la capacidad productiva y las cargas de trabajo, la estrategia es determinar qué tan preciso puede ser el equilibrio de los tres principales recursos de un proceso logístico: las personas, la infraestructura tecnológica y digital y las materias primas. <br> Este componente hace referencia a las plantas de producción: el Plan maestro de producción, que permite comprender, lo qué se va a hacer en un período determinado y el nivel de trazabilidad porcentual, servicios o unidades que se pueden procesar de manera eficiente.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -266,7 +266,7 @@ export default {
     },
     {
       referencia:
-        ' Hernández, Juan Carlos, Vizán Idoipe, Antonio (2013) Lean Manufacturing editorial p. 6.',
+        'Hernández, Juan Carlos, Vizán Idoipe, Antonio (2013) Lean Manufacturing editorial p. 6.',
       link:
         'https://www.eoi.es/es/savia/publicaciones/20730/lean-manufacturing-concepto-tecnicas-e-implantacion',
     },
@@ -284,12 +284,12 @@ export default {
     },
     {
       referencia:
-        ' Proaño Villavicencio, D.X. (2017). Metodología para elaborar un plan de mejora continua 3CProaño Villavicencio, D.X. (2017). Metodología para elaborar un plan de mejora continua. 3C Empresa: investigación y pensamiento crítico, Edición Especial, 50-56',
+        'Proaño Villavicencio, D.X. (2017). Metodología para elaborar un plan de mejora continua 3CProaño Villavicencio, D.X. (2017). Metodología para elaborar un plan de mejora continua. 3C Empresa: investigación y pensamiento crítico, Edición Especial, 50-56',
       link: 'http://dx.doi.org/10.17993/3cemp.2017.especial.50-56',
     },
     {
       referencia:
-        ' Ramos, D (2018) Las siete herramientas estadísticas de calidad. Artículo de Qualiex- Blog de Calidad. ',
+        'Ramos, D (2018) Las siete herramientas estadísticas de calidad. Artículo de Qualiex- Blog de Calidad. ',
       link: 'https://blogdelacalidad.com/las-siete-herramientas-de-la-calidad/',
     },
     {
@@ -379,7 +379,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Yenny Patricia Ulloa Villamizar',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

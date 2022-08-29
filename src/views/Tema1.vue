@@ -20,7 +20,7 @@
     #t_1_1
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.1 Conceptos generales, estrategias, y aplicación 
-    p.mb-5 Antes de plantear los diferentes eventos que se presentan en la planeación, programación y control de la producción, y trabajar el contexto que nos lleva a establecer un completo sistema de costos, la trazabilidad en los procesos logísticos de producción o servicios es de relevancia trabajarla paralela; se refiere a determinar la importancia de mostrar números matemáticos que utilizan los directivos empresariales para administrar la factibilidad económica, más aún que el desempeño durante una jornada o periodo de trabajo, puede marcar la diferencia.
+    p.mb-5 Antes de plantear los diferentes eventos que se presentan en la planeación, programación y control de la producción, y el contexto que nos lleva a establecer un completo sistema de costos, y de trazabilidad en los procesos logísticos de producción o servicios, es de relevancia trabajarlos de forma paralela; determinando la importancia de mostrar números matemáticos que utilizan los directivos empresariales para administrar la factibilidad económica, más, cuando el desempeño durante una jornada o periodo de trabajo, puede marcar la diferencia.
     .bg2
       .row.mb-2.align-items-center.justify-content-center
         .col-lg-4.bg1.p-3.mb-5
@@ -38,14 +38,14 @@
               p.mt-3 La capacidad de elaboración de planes de producción se refiere al manejo de la información documentada que utiliza el personal que lidera estos procesos durante una jornada o periodo de trabajo.
               p Con el objetivo de cumplir con metas propuestas por la gerencia operacional de la compañía, al realizar el aprovechamiento de la maquinaria disponible durante el ciclo laboral y los minutos aportados para una orden de producción específica, con base en la calidad que se requiere para ensamblar una unidad de producción o la prestación de un servicio.
               p Lo que se convierte en los elementos de carga instalada de tiempo, relevante en el diseño de rutas críticas y la asignación de  tareas a la infraestructura productiva.
-    p.mb-5 A continuación, se detallan  algunas estrategias y aplicaciones en la planificación del proceso logístico; publicadas en el libro Introducción al estudio del trabajo de la OIT.
+    p.mb-5 A continuación, se detallan  algunas estrategias y aplicaciones en la planificación del proceso logístico; publicadas en el libro #[b Introducción al estudio del trabajo] de la OIT.
     .bg4
       .row.mb-5.align-items-center.justify-content-center
         .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
           ul.lista-ul
             li 
               i.fas.fa-cog(style="color:#F14141")
-              | Empleo de software especializado para la elaboración de plan maestro de producción.  
+              | Empleo de <em>software</em> especializado para la elaboración de plan maestro de producción.  
             li 
               i.fas.fa-cog(style="color:#F14141")
               | Implementación de herramientas de trazabilidad numérica, indicadores de gestión.
@@ -137,12 +137,12 @@
           p.text-small Se mejora significativamente, creando un flujo de producción continuo y con altísimos estándares de calidad.
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
         .tarjeta--boton.bg_color1.text-black--hover.p-4.h-100
-          .row.justify-content-center.mb-3
+          .row.justify-content-center.mb-5
             .col-7
               figure
                 img(src='@/assets/curso/tema1/img11.svg', alt='Texto que describa la imagen')
           h3.text-center Equipo de colaboradores
-          p.text-small Se mejora significativamente, creando un flujo de producción continuo y con altísimos estándares de calidad.
+          p.text-small Hace fluir la producción ininterrumpidamente entre operación y operación, reduciendo ostensiblemente el tiempo de respuesta.
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
         .tarjeta--boton.bg_color1.text-black--hover.p-4.h-100
           .row.justify-content-center.mb-3
@@ -167,7 +167,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema1/img14.png')})`}"
           )        
           .bloque-texto-g__texto.py-5.px-4
-            p.mb-0  Con la ampliación de estas ideas del #[b #[i Lean Manufacturing]], comenzaron su aplicación en otros sectores productivos inclusive en otros países y posteriormente a nivel global.
+            p.mb-0  Con la ampliación de estas ideas del #[b #[i Lean Manufacturing]], comenzaron su aplicación en otros sectores productivos inclusive en otros países y posteriormente a nivel global. <br><br>
             p Con el tiempo se ha ido configurando un lenguaje estandarizado, convirtiéndolo en el paradigma número uno en la actualidad, de los sistemas de mejora continua de la productividad y uso de tecnologías sostenibles, coligada a la perfección industrial.
     .row.mb-4.justify-content-center.align-items-center(data-aos="fade-left")
       .col-lg-5.mb-4.mb-lg-0
@@ -175,7 +175,7 @@
           img(src='@/assets/curso/tema1/img15.png').m-auto
       .col-lg-7
         p En resumen, la importancia de la filosofía <em>Lean</em>, radica en el empleo de metodologías fuertemente efectivas, las cuales confluyen en un unido grupo de herramientas técnicas de fabricación o prestación de servicio que buscan la mejora continua de los procesos productivos a través del uso de pilares de disminución de toda forma de “desperdicios” o MUDAS, definidos éstos como los procesos o actividades que usan más recursos de los estrictamente necesarios o generan costos ocultos. 
-        p.p-3.bg5  La combinación de todas estas filosofías construye un modelo que está presto a una nueva cultura tendente a encontrar la forma de aplicar mejoras en la planta de fabricación, tanto a nivel de puesto de trabajo como de línea de fabricación; para lo cual, se considera fundamental la colaboración y comunicación plena entre directivos, mandos y operarios.
+        p.p-3.bg5  La combinación de todas estas filosofías construye un modelo que está presto a una nueva cultura tendiente a encontrar la forma de aplicar mejoras en la planta de fabricación, tanto a nivel de puesto de trabajo como de línea de fabricación; para lo cual, se considera fundamental la colaboración y comunicación plena entre directivos, mandos y operarios.
     p.mb-5 En conclusión, lo que se pretende con estos sistemas de producción es brindar a los empleados de las empresas, un panorama real de lo que constituye aplicar estrategias de #[b #[i Lean Manufacturing]] para:
     .row.justify-content-center(data-aos="fade-left").mb-5
       .col-lg-6.mb-4
@@ -428,81 +428,81 @@
       table
         thead(style="background-color: #F14141")
           tr 
-            th(colspan="4").text-center.text-white LISTADO OPERACIONES
+            th(colspan="12").text-center.text-white LISTADO OPERACIONES
         tbody     
           tr(style="background-color: #FABCBC")
-            th(colspan="4")
-             td(colspan="3").text-center #[b Referencia: 561007]
-             td(colspan="3").text-center #[b Orden de producción: 561007]
-             td(colspan="3").text-center #[b Fecha: 7/72021]
+           
+             td(colspan="4").text-center #[b Referencia: 561007]
+             td(colspan="4").text-center #[b Orden de producción: 561007]
+             td(colspan="4").text-center #[b Fecha: 7/72021]
           tr(style="background-color: #FDE2E2")
-            td.text-center #[b SEC]
-            td.mb-4.text-center.mb-0 DESCRIPCIÓN DE LA OPERACIÓN
-            td.mb-4.text-center.mb-0 MÁQUINA
-            td.mb-4.text-center.mb-0 SAM
+            td(colspan="3").text-center #[b SEC]
+            td(colspan="3").mb-4.text-center.mb-0 #[b DESCRIPCIÓN DE LA OPERACIÓN]
+            td(colspan="3").mb-4.text-center.mb-0 #[b MÁQUINA]
+            td(colspan="3").mb-4.text-center.mb-0 #[b SAM]
           tr
-            td.text-center 1
-            td.text-center.mb-0 Fijar marquilla
-            td.mb-4.text-center.mb-0 Plana1
-            td.mb-4.text-center.mb-0 0,308  
+            td(colspan="3").text-center 1
+            td(colspan="3").text-center.mb-0 Fijar marquilla
+            td(colspan="3").mb-4.text-center.mb-0 Plana1
+            td(colspan="3").mb-4.text-center.mb-0 0,308  
           tr(style="background-color: #F6F6F6")
-            td.text-center 2
-            td.mb-4.text-center.mb-0 Unir hombro derecho
-            td.mb-4.text-center.mb-0 Filesc
-            td.mb-4.text-center.mb-0 0,394
+            td(colspan="3").text-center 2
+            td(colspan="3").mb-4.text-center.mb-0 Unir hombro derecho
+            td(colspan="3").mb-4.text-center.mb-0 Filesc
+            td(colspan="3").mb-4.text-center.mb-0 0,394
           tr
-            td.text-center 3
-            td.mb-4.text-center.mb-0 Sesgar cuello redondo
-            td.mb-4.text-center.mb-0 Recub1
-            td.mb-4.text-center.mb-0 0,972
+            td(colspan="3").text-center 3
+            td(colspan="3").mb-4.text-center.mb-0 Sesgar cuello redondo
+            td(colspan="3").mb-4.text-center.mb-0 Recub1
+            td(colspan="3").mb-4.text-center.mb-0 0,972
           tr(style="background-color: #F6F6F6")
-            td.text-center 4
-            td.mb-4.text-center.mb-0 Unir hombro izquierdo casando sesgo
-            td.mb-4.text-center.mb-0 Filesc
-            td.mb-4.text-center.mb-0 0,422
+            td(colspan="3").text-center 4
+            td(colspan="3").mb-4.text-center.mb-0 Unir hombro izquierdo casando sesgo
+            td(colspan="3").mb-4.text-center.mb-0 Filesc
+            td(colspan="3").mb-4.text-center.mb-0 0,422
           tr
-            td.text-center 5
-            td.mb-4.text-center.mb-0 Sesgar sisas x2
-            td.mb-4.text-center.mb-0 Recub1
-            td.mb-4.text-center.mb-0 1,448
+            td(colspan="3").text-center 5
+            td(colspan="3").mb-4.text-center.mb-0 Sesgar sisas x2
+            td(colspan="3").mb-4.text-center.mb-0 Recub1
+            td(colspan="3").mb-4.text-center.mb-0 1,448
           tr(style="background-color: #F6F6F6")
-            td.text-center 7
-            td.mb-4.text-center.mb-0 Presilla x1 cuello
-            td.mb-4.text-center.mb-0 Presil
-            td.mb-4.text-center.mb-0 0,216
+            td(colspan="3").text-center 7
+            td(colspan="3").mb-4.text-center.mb-0 Presilla x1 cuello
+            td(colspan="3").mb-4.text-center.mb-0 Presil
+            td(colspan="3").mb-4.text-center.mb-0 0,216
           tr
-            td.text-center 8
-            td.mb-4.text-center.mb-0 Presilla sisas x2
-            td.mb-4.text-center.mb-0 Presil
-            td.mb-4.text-center.mb-0 0,610
+            td(colspan="3").text-center 8
+            td(colspan="3").mb-4.text-center.mb-0 Presilla sisas x2
+            td(colspan="3").mb-4.text-center.mb-0 Presil
+            td(colspan="3").mb-4.text-center.mb-0 0,610
           tr(style="background-color: #F6F6F6")
-            td.text-center 9
-            td.mb-4.text-center.mb-0 Doblar ruedo bajo
-            td.mb-4.text-center.mb-0 Recub2
-            td.mb-4.text-center.mb-0 1,240
+            td(colspan="3").text-center 9
+            td(colspan="3").mb-4.text-center.mb-0 Doblar ruedo bajo
+            td(colspan="3").mb-4.text-center.mb-0 Recub2
+            td(colspan="3").mb-4.text-center.mb-0 1,240
           tr
-            td.text-center 10
-            td.mb-4.text-center.mb-0 Pulir y revisar esqueleto
-            td.mb-4.text-center.mb-0 Manual
-            td.mb-4.text-center.mb-0 1,276
+            td(colspan="3").text-center 10
+            td(colspan="3").mb-4.text-center.mb-0 Pulir y revisar esqueleto
+            td(colspan="3").mb-4.text-center.mb-0 Manual
+            td(colspan="3").mb-4.text-center.mb-0 1,276
           tr(style="background-color: #F6F6F6")
-            td.text-center 11
-            td.mb-4.text-center.mb-0 Pegar <em>sticker</em> en etiqueta y bolsa
-            td.mb-4.text-center.mb-0 Manual
-            td.mb-4.text-center.mb-0 0,138
+            td(colspan="3").text-center 11
+            td(colspan="3").mb-4.text-center.mb-0 Pegar <em>sticker</em> en etiqueta y bolsa
+            td(colspan="3").mb-4.text-center.mb-0 Manual
+            td(colspan="3").mb-4.text-center.mb-0 0,138
           tr
-            td.text-center 12
-            td.mb-4.text-center.mb-0 Etiquetar x2
-            td.mb-4.text-center.mb-0 Manual
-            td.mb-4.text-center.mb-0 0,144
+            td(colspan="3").text-center 12
+            td(colspan="3").mb-4.text-center.mb-0 Etiquetar x2
+            td(colspan="3").mb-4.text-center.mb-0 Manual
+            td(colspan="3").mb-4.text-center.mb-0 0,144
           tr(style="background-color: #F6F6F6")
-            td.text-center 13
-            td.mb-4.text-center.mb-0 Doblar, empacar y encintar bolsa duo camisetas
-            td.mb-4.text-center.mb-0 Manual
-            td.mb-4.text-center.mb-0 0,412
+            td(colspan="3").text-center 13
+            td(colspan="3").mb-4.text-center.mb-0 Doblar, empacar y encintar bolsa duo camisetas
+            td(colspan="3").mb-4.text-center.mb-0 Manual
+            td(colspan="3").mb-4.text-center.mb-0 0,412
           tr
-            td(colspan="3").text-center #[b TOTAL]
-            td.mb-4.text-center.mb-0 8,972
+            td(colspan="9").text-center #[b TOTAL]
+            td(colspan="3").mb-4.text-center.mb-0 8,972
     Separador
     #t_1_4
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -524,9 +524,10 @@
             .p-4
               p Por lo tanto, hacer un adecuado balanceo de líneas de producción, es la mejor técnica empleada en la asignación de cargas de trabajo y diseñar y aplicar la matriz de polifuncionalidad, lo que direcciona a los administrativos al descubrimiento de fortalezas y debilidades de los equipos de colaboradores. 
     p.mb-5 En la situación actual de pequeños medianos y grandes empresarios, es necesarios desarrollar habilidades básicas dirigidas primordialmente a aportar al recurso humano poco calificado, en cómo mejorar los procesos logísticos de producción y servicios, siempre proyectando unos resultados finales óptimos en cuanto a costos y que satisfagan las necesidades de un cliente en términos de calidad. 
-    .row.mb-2.align-items-center
+    .row.align-items-center
       .col-lg-3.bg1.p-3.mb-5
         h3.text-white.text-center.mb-0 Capacidad productiva
+    p.mb-5 Las organizaciones pequeñas o grandes deben planificar en sus procesos para que se conviertan en entes con altos parámetros en productividad y servicio.
     .row.mb-4.justify-content-center.align-items-center(data-aos="fade-left")
       .col-lg-6.mb-4.mb-lg-0
         figure
@@ -611,7 +612,7 @@
       .col-lg-10
         figure
           img.img(src='@/assets/curso/tema1/img53.svg', alt='Texto que describa la imagen')
-    p Para comprender un poco más acerca de la capacidad instalada operativa aplicada al contexto laboral, se presenta un ejemplo ilustrativo:
+    p.mb-5 Para comprender un poco más acerca de la capacidad instalada operativa aplicada al contexto laboral, se presenta un ejemplo ilustrativo:
     .row.mb-2.align-items-center
       .col-lg-3.bg1.p-3.mb-5
         h3.text-white.text-center.mb-0 Hilos y Dedales S.A.S.
@@ -762,7 +763,8 @@
       .col-lg-10
         figure
           img.img(src='@/assets/curso/tema1/img62.svg', alt='Texto que describa la imagen')
-    p.mb-5 Con el siguiente ejemplo ilustrativo, se puede comprender un poco más acerca de la carga instalada o minutos de producción aplicada al contexto laboral:
+    p Con el siguiente ejemplo ilustrativo, se puede comprender un poco más acerca de la carga instalada o minutos de producción aplicada al contexto laboral:
+    p Ejemplo carga instalada o minutos de producción
     .row.mb-2.align-items-center
       .col-lg-4.bg1.p-3.mb-5
         h3.text-white.text-center.mb-0 Manufacturamos Prendas S.A.S.
@@ -770,13 +772,13 @@
       .col-md-3.col-12.p-3
         img(src='@/assets/curso/tema1/img64.svg')
       .col-md-6.col-12
-        p La empresa tiene una planta de manufactura y cuenta con dos módulos de ensamble que poseen personal de mano de obra directa de  9 y 8 personas respectivamente;  y un módulo en el área de empaque con 14 personas. 
+        p La empresa tiene una planta de producción y cuenta con las siguientes órdenes de fabricación:
     .row.bg13.justify-content-center.align-items-center.p-5.mb-5
       .tabla-a.color-acento-contenido.mb-5 
         table
           thead
             tr 
-              th(colspan="8").text-center CAPACIDAD INSTALADA OPERATIVA MÓDULO 1 
+              th(colspan="8").text-center CARGA INSTALADA O MINUTOS DE PRODUCCIÓN
           tbody
             tr
               td.text-center Fecha de ingreso
@@ -871,10 +873,10 @@
             h3.text-center Jornada de trabajo
             p Periodo de tiempo estimado en la normatividad del Código Sustantivo del Trabajo colombiano, en el que se determinan un número de minutos horarios o diarios.
       p.mb-5 Así, para determinar la #[span.txt-color2 Carga Instalada en minutos Técnicos] se debe realizar la siguiente #[span.txt-color2 fórmula]:
-    .row.justify-content-center.mb-5
+    .row.justify-content-center
       .col-lg-10
         figure
-          .col-md-3.col-6.mb-md-0.mb-4.bg20
+          img.img(src='@/assets/curso/tema1/img72.svg', alt='Texto que describa la imagen')
     Separador
     #t_1_5
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -939,13 +941,14 @@
           .col-lg-1.mb-3
             figure
               img(src='@/assets/curso/tema1/img80.svg').mx-auto(data-aos="fade-right")
-    .row.mb-2.align-items-center
-      .col-lg-3.bg1.p-3.mb-5
-        h3.text-white.text-center.mb-0 Control de inventario en proceso
+    Separador
+    #t_1_6
+    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 1.6 Control de inventario en proceso
     .row.mb-5.justify-content-center.align-items-center(data-aos="fade-left")
       .col-lg-7
         p Los inventarios entonces necesitan ser clasificados debido a su importancia ya que para el administrador la información que suministran tiene que ver con su manejo y esto requiere uso de recursos, personal y dinero. La limitante entonces está en que los recursos son limitados y muchas veces se tiene gran número de inventarios.
-        p.p-3.bg5 Si bien una persona puede ser remplazada en el proceso, no pasa lo mismo con la no disponibilidad de una máquina, puesto que esta situación puede acarrear caos al proceso y baja en el índice de productividad de la compañía. 
+        p.p-3.bg5 Un inventario representa la existencia de bienes muebles e inmuebles que tiene la empresa para comerciar con ellos, comprándolos y vendiéndolos tal cual o procesándolos primero antes de venderlos, en un período económico determinado y deben aparecer en el grupo de Activo Circulante.
         p Los inventarios son importantes para los fabricantes en general, y varían ampliamente entre los distintos grupos de industrias. La composición de esta parte del activo es una gran variedad de artículos, y es por eso que se han clasificado de acuerdo a su utilización en los siguientes tipos: 
       .col-lg-5.mb-4.mb-lg-0
         img(src='@/assets/curso/tema1/img81.svg').m-auto

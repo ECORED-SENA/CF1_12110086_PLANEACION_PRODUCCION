@@ -30,21 +30,20 @@
         figure
           img(src='@/assets/curso/tema2/img2.svg').m-auto
       .col-lg-6.mb-5
-        p Se deben crear necesidades como:
+        p Estas herramientas ayudan a programar y están diseñadas para: 
         ul.lista-ul
             li 
               i.fas.fa-cog(style="color:#F14141")
-              | Interactuar con la información. Elaborar cálculos de necesidades de recursos.
+              | Interactuar con la información.
             li 
               i.fas.fa-cog(style="color:#F14141")
-              |  Elaborar cálculos de necesidades de recursos.
+              | Elaborar cálculos de necesidades de recursos.
             li 
               i.fas.fa-cog(style="color:#F14141")
-              |  Realizar trazabilidad y seguimiento a las producciones. 
+              | Realizar trazabilidad y seguimiento a las producciones. 
             li 
               i.fas.fa-cog(style="color:#F14141")
-              |  Determinar fechas e informar sobre requerimientos de materiales.
-
+              | Determinar fechas e informar sobre requerimientos de materiales.
     p.mb-5 Dimensionar las actividades y los recursos necesarios para poder sacar adelante los proyectos es un primer gran paso para las personas responsables de la producción, producir unidades en corto tiempo, de muy buena calidad, al menor costo, y en el mejor de los ambientes es el gran objetivo de las corporaciones. 
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -127,7 +126,7 @@
         .row
           .col-lg-9.mb-4.mb-lg-0.p-4
             h4 Pedidos de los clientes: 
-            p.mb-0 Una cosa es presupuestar o pronosticar las cantidades que se van a despachar y otra son los pedidos reales que nos van llegando; es importante saber distinguir ambas cifras para poder elaborar un buen PMP. Los pedidos reales son los que tenemos por escrito, consignados en un talonario, una base de datos o un software diseñado para ese propósito.
+            p.mb-0 Una cosa es presupuestar o pronosticar las cantidades que se van a despachar y otra son los pedidos reales que nos van llegando; es importante saber distinguir ambas cifras para poder elaborar un buen PMP. Los pedidos reales son los que tenemos por escrito, consignados en un talonario, una base de datos o un <em>software</em> diseñado para ese propósito.
           .col-lg-3.d-flex.align-items-center.justify-content-center
             figure
               img(src='@/assets/curso/tema2/img12.svg').m-auto
@@ -207,7 +206,7 @@
                   img(src='@/assets/curso/tema2/img21.svg', style="width: 170px").m-auto
           div
             .row.align-items-center.justify-content-end
-              .col-2
+              .col-auto
                 figure
                   img(src='@/assets/curso/tema2/img22.svg', style="width: 170px").m-auto
               .col-lg-5.mb-4
@@ -286,7 +285,7 @@
         .tarjeta.color-primario4
           .p-4
             h4.text-center Los pronósticos de demanda o presupuestos de venta: 
-            pmb-0.text-center son las cantidades por producto que se estiman se van a vender en determinado período, se realizan con datos históricos o estudios de mercadeo, entre otros.
+            pmb-0.text-center Son las cantidades por producto que se estiman se van a vender en determinado período, se realizan con datos históricos o estudios de mercadeo, entre otros.
       .tarjeta-avatar
         img(src='@/assets/curso/tema2/img29.svg' alt='AvatarTop')
         .tarjeta.color-primario4

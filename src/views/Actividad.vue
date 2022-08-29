@@ -10,7 +10,7 @@
             img(src="@/assets/template/falso-verdadero.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Verdadero o falso
+          h2 Planeación y Plan Maestro de la producción
         p.mb-4 #[b Objetivo] Conceptualizar las definiciones de  cargas de trabajo, inventarios y Plan maestro de la producción para fortalecer los procesos logísticos en la prestación de servicio o creación de un producto.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
