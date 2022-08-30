@@ -51,7 +51,7 @@
           p.mb-0 #[b Figura 3]. <br> Plan maestro de producción 
         figure
           img(src='@/assets/curso/tema2/img3.svg')
-    p Dimensionar las actividades y los recursos necesarios para poder sacar adelante los proyectos es un primer gran paso para las personas responsables de la producción, producir unidades en corto tiempo, de muy buena calidad, al menor costo, y en el mejor de los ambientes es el gran objetivo de las corporaciones. 
+    p Es importante saber acerca de la planificación de la producción y utilizar de manera apropiada técnicas de planeación y control para lograr con el uso de infraestructura tecnológica y software especializados, el diseño de estrategias con el fin de volver más ágiles los procesos y el manejo de la información.  
     Separador
     #t_2_1
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
