@@ -4,11 +4,12 @@
     position: absolute
     top: 25%
     right: 83%
+    width: 102px
   &-2
-    animation: float2 2.8s ease-in-out infinite alternate
+    animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 65%
-    right: 79%
+    top: 64%
+    right: 73%
   &-3
     animation: float2 2.8s ease-in-out infinite alternate
     position: absolute
@@ -31,7 +32,7 @@
     transform: translateX(0px)
 
 .bg1
-  background-color: #F14141
+  background-color: #C03434
   border-radius: 20px
 
 .bg2
@@ -61,13 +62,13 @@
     content: ''
     position: absolute
     margin: 0 0rem
-    top: -2rem
-    left: -280px
-    width: calc( 100% + 11rem)
-    height: calc( 100% + 5rem)
-    background-image: url("../assets/curso/tema1/img6.png") 
-    background-repeat: no-repeat
-    background-size: contain
+    top: 0
+    left: 0
+    width: calc( 100% + -15rem)
+    height: 100%
+    background-color: #D9F2F6 
+    border-top-right-radius: 30px
+    border-bottom-right-radius: 30px
     @media (max-width: $bp-max-md)
       background-size: cover
       left: -8px
@@ -133,16 +134,33 @@
     background-size: contain
 
 .bg11
-  background-color: #D9F2F6
+  position: relative
+  p, img
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 0rem
+    top: 44px
+    left: 0
+    width: calc( 100% + -7rem)
+    height: 61%
+    background-color: #D9F2F6 
+    border-top-right-radius: 30px
+    border-bottom-right-radius: 30px
+    @media (max-width: $bp-max-md)
+      background-size: cover
+      left: -8px
+      width: calc( 100% + 1rem)
+  
 
 .bg12
   background-color: #fff
   border-radius: 20px
 
 .bg13
-  background-image: url("../assets/curso/tema1/img55.png") 
-  background-repeat: no-repeat
-  background-size: cover
+  background-color: #CEDAF2
+  border-top: 15px solid #2C78DC
 
 .bg14
   background-image: url("../assets/curso/tema1/img56.png") 
@@ -208,6 +226,21 @@
   background-image: url("../assets/curso/tema1/img75.svg") 
   background-repeat: no-repeat
   background-size: cover
+.bg23
+  background-color: #E9F4F9
+.bg24
+  background-color: #FDE2E2
+  border-radius: 20px
+.bg25
+  background-color: #E9EEF9
+  border-top: 15px solid #2C78DC
+.bg26
+  background-color: #D9F2F6
+  border-top: 5px solid #02A5BF
+  border-right: 5px solid #02A5BF 
+.bg27
+  background-color: #D9F2F6
+  border-top: 5px solid #02A5BF
   
     
 .dual-txt-deco
@@ -219,7 +252,7 @@
     left: -16px
     width: 35%
     height: 65%
-    background-color: #FEF3F3
+    background-color: #FCCFCF
     z-index: 0
 
 .txt-color1
@@ -273,6 +306,33 @@
 .img26
   max-width: 26px 
   width: 430px !important
+.img105
+  max-width: 105px
+.img34
+  max-width: 60px
+.position
+  position: absolute
+  top: 50%
+  left: 20%
+  @media screen and (max-width: 420px)
+    top: 23%;
+    left: 42%;
+  &_1
+    position: absolute
+    top: 50%
+    left: 47%
+    @media screen and (max-width: 420px)
+      top: 47%;
+      left: 42%;
+  &_2
+    position: absolute
+    top: 50%
+    left: 74%
+    @media screen and (max-width: 420px)
+      top: 72%;
+      left: 42%;
+
+
 
 .pasos-a.color-acento-contenido .pasos-a__circle div
   color: #fff
@@ -322,4 +382,7 @@
 .tarjeta.color-primario4
   background-color: #E9F4F9
   width: 100%
-  height: 520px
+.text-aling
+  text-align: left
+.horizontal-scroll
+  align-items: stretch !important

@@ -7,15 +7,15 @@
         span.text-white 1
       h1 Planeación de la producción
     .row.mb-4.justify-content-center.align-items-center(data-aos="fade-left")
-          .col-lg-5.mb-4.mb-lg-0
-            figure
-              img(src='@/assets/curso/tema1/img1.png').m-auto
-          .col-lg-7
-            p Para los sectores productivos hablar de planeación de la producción se refiere al componente vital del proceso productivo, es decir, sus recursos esenciales, el factor humano, el producto y la maquinaria, que en compañía de las infraestructuras tecnológicas y digitales provee de servicios o productos de óptima calidad a la demanda del mercado;  de estos dependen que los administrativos, proyecten el futuro económico que tanto les preocupa, lo que implica obtener máxima eficiencia del equipo operativo y utilizar sus conocimientos, puesto que proveer al mercado de altos parámetros de calidad inmersos en sus productos, significa una ventaja competitiva que la empresa sostiene en el tiempo. 
-            .bloque-texto-c.color-secundario.p-4
-              i.fas.fa-quote-right
-              p.mb-3 Proveer al mercado de productos que colmen las expectativas de un consumidor final, aumenta la demanda, la sostenibilidad y el crecimiento económico, así como el incremento del empleo para una región golpeada por la actual situación de salud y bajas económicas
-              span  #[b Valverde Chifla, 2014].
+      .col-lg-5.mb-4.mb-lg-0
+        figure
+          img(src='@/assets/curso/tema1/img1.png').m-auto
+      .col-lg-7
+        p Para los sectores productivos hablar de planeación de la producción se refiere al componente vital del proceso productivo, es decir, sus recursos esenciales, el factor humano, el producto y la maquinaria, que en compañía de las infraestructuras tecnológicas y digitales provee de servicios o productos de óptima calidad a la demanda del mercado;  de estos dependen que los administrativos, proyecten el futuro económico que tanto les preocupa, lo que implica obtener máxima eficiencia del equipo operativo y utilizar sus conocimientos, puesto que proveer al mercado de altos parámetros de calidad inmersos en sus productos, significa una ventaja competitiva que la empresa sostiene en el tiempo. 
+        .bloque-texto-c.color-secundario.p-4
+          i.fas.fa-quote-right
+          p.mb-3 Proveer al mercado de productos que colmen las expectativas de un consumidor final, aumenta la demanda, la sostenibilidad y el crecimiento económico, así como el incremento del empleo para una región golpeada por la actual situación de salud y bajas económicas
+          span  #[b Valverde Chifla, 2014].
     Separador
     #t_1_1
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -41,8 +41,8 @@
     p.mb-5 A continuación, se detallan  algunas estrategias y aplicaciones en la planificación del proceso logístico; publicadas en el libro #[b Introducción al estudio del trabajo] de la OIT.
     .bg4
       .row.mb-5.align-items-center.justify-content-center
-        .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
-          ul.lista-ul
+        .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
+          ul.lista-ul.ps-4.pt-4
             li 
               i.fas.fa-cog(style="color:#F14141")
               p.mb-0 Empleo de <em>software</em> especializado para la elaboración de plan maestro de producción.  
@@ -82,7 +82,7 @@
             li 
               i.fas.fa-cog(style="color:#F14141")
               | Implementación de planes de mantenimiento para la infraestructura tecnológica digital y mecánica.
-        .col-lg-4
+        .col-lg-5
           figure
             img(src='@/assets/curso/tema1/img5.png')(data-aos="fade-left")
     Separador
@@ -116,7 +116,7 @@
             p.mb-0 Empleando programas especializados.
     .row.mb-2.align-items-center
       .col-lg-4.bg6.p-3.mb-5
-        h3.text-white.text-center.mb-0 Mejoras en…
+        h3.text-white.text-center.mb-0 Generando mejoras en…
     .row.justify-content-center.mb-5
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
         .tarjeta--boton.bg_color1.text-black--hover.p-4.h-100
@@ -124,32 +124,32 @@
             .col-7
               figure
                 img(src='@/assets/curso/tema1/img9.svg', alt='Texto que describa la imagen')
-          h3.text-center Tiempos de respuesta
-          p.text-small Minimizando fechas de entrega y maximizando las habilidades y el desempeño del equipo de colaboradores.
+          h4.text-center Tiempos de respuesta
+          p.mb-0.text-center Minimizando fechas de entrega y maximizando las habilidades y el desempeño del equipo de colaboradores.
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
         .tarjeta--boton.bg_color1.text-black--hover.p-4.h-100
           .row.justify-content-center.mb-3
             .col-7
               figure
                 img(src='@/assets/curso/tema1/img10.svg', alt='Texto que describa la imagen')
-          h3.text-center Estándares de calidad 
-          p.text-small Se mejora significativamente, creando un flujo de producción continuo y con altísimos estándares de calidad.
+          h4.text-center Estándares de calidad 
+          p.mb-0.text-center Se mejora significativamente, creando un flujo de producción continuo y con altísimos estándares de calidad.
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
         .tarjeta--boton.bg_color1.text-black--hover.p-4.h-100
           .row.justify-content-center.mb-5
             .col-7
               figure
                 img(src='@/assets/curso/tema1/img11.svg', alt='Texto que describa la imagen')
-          h3.text-center Equipo de colaboradores
-          p.text-small Hace fluir la producción ininterrumpidamente entre operación y operación, reduciendo ostensiblemente el tiempo de respuesta.
+          h4.text-center Equipo de colaboradores
+          p.mb-0.text-center Hace fluir la producción ininterrumpidamente entre operación y operación, reduciendo ostensiblemente el tiempo de respuesta.
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
         .tarjeta--boton.bg_color1.text-black--hover.p-4.h-100
           .row.justify-content-center.mb-3
             .col-7
               figure
                 img(src='@/assets/curso/tema1/img12.svg', alt='Texto que describa la imagen')
-          h3.text-center Índices matemáticos
-          p.text-small Aumentando los índices matemáticos que le asignan a los líderes del proceso. 
+          h4.text-center Índices matemáticos
+          p.mb-0.text-center Aumentando los índices matemáticos que le asignan a los líderes del proceso. 
     .row.align-items-center.mb-5
       .col-lg-6(data-aos="fade-right").mb-4
         LineaTiempoD.color-secundario
@@ -325,9 +325,9 @@
         .col-lg-4
           p.p-3.bg5 Los diagramas de secuencia muestran la forma en que un grupo de objetos  se comunican o interactúan entre sí a lo largo de un tiempo y facilita comprender la ejecución de un proceso.
         .col-lg-10
-      .row.justify-content-center.align-items-center.mb-4
-        .col-md-10.col-12.bg11.p-3
-          p El orden operacional y/o de la conexión en cadena de las actividades en la logística de producción y servicios se refiere al proceso de comprender, visualizar, e identificar los eventos y/o actividades, que participan en una seguidilla de acciones que se hacen para obtener un resultado por medio de herramientas gráficas, listados y otros elementos. #[span.txt-color2 La secuencia operacional es el camino que se traza para ir avanzando y agregando valor a ese proceso requerido para conseguir las metas.] 
+      .row.justify-content-center.align-items-center.mb-4.bg11
+        .col-md-10.col-12.p-4
+          p.mb-0 El orden operacional y/o de la conexión en cadena de las actividades en la logística de producción y servicios se refiere al proceso de comprender, visualizar, e identificar los eventos y/o actividades, que participan en una seguidilla de acciones que se hacen para obtener un resultado por medio de herramientas gráficas, listados y otros elementos. #[span.txt-color2 La secuencia operacional es el camino que se traza para ir avanzando y agregando valor a ese proceso requerido para conseguir las metas.] 
         .col-md-2.col-12.px-0
           img(src='@/assets/curso/tema1/img34.png')
       .row.mb-2.align-items-center
@@ -350,7 +350,7 @@
               .col-auto
                 figure
                   img(src='@/assets/curso/tema1/img36.svg', style="width: 170px").m-auto
-              .col-lg-5.mb-4
+              .col-lg-5.mb-4.text-aling
                 p Elaborar un listado de actividades u operaciones: las operaciones, la naturaleza de ellas, los tiempos estándar, y la ubicación de los puestos de trabajo, son una información importante para construir secuencias operacionales. 
           div
             .row.align-items-center
@@ -364,7 +364,7 @@
               .col-auto
                 figure
                   img(src='@/assets/curso/tema1/img38.svg', style="width: 170px").m-auto
-              .col-lg-5
+              .col-lg-5.text-aling
                 p Calcular las personas de acuerdo al volumen de la demanda y las operaciones; las personas y los horarios definen la capacidad productiva.
           div
             .row.align-items-center
@@ -378,7 +378,7 @@
               .col-auto
                 figure
                   img(src='@/assets/curso/tema1/img40.svg', style="width: 170px").m-auto
-              .col-lg-5.mb-4
+              .col-lg-5.mb-4.text-aling
                 p Determinar cuáles controles de trazabilidad se van a realizar para hacerle seguimiento a la secuencia operacional.
           div
             .row.align-items-center
@@ -546,7 +546,7 @@
             li 
               i.fas.fa-cog(style="color:#F14141").mb-4
               | Concentrarse en elaborar unos completos listados operacionales.
-        p.mb-4.p-3.bg15.shadow  Que permitan una ilustración directa a los entes gerenciales, del manejo de los costos y un máximo aprovechamiento de los recursos.
+        p.mb-4.p-5.bg15.shadow  Que permitan una ilustración directa a los entes gerenciales, del manejo de los costos y un máximo aprovechamiento de los recursos.
         p Planificar ordenada y permanentemente la capacidad productiva y las cargas de trabajo sin importar el tamaño de los lotes o el servicio a prestar, ayuda al empresario a desarrollar habilidades para establecer la realidad de su negocio, y se convierte en un instrumento técnico empleado para responder con puntualidad a los clientes sobre las fechas de entrega de sus productos o servicios.
     .row.mb-2.align-items-center
       .col-lg-5.bg1.p-3.mb-5
@@ -556,7 +556,7 @@
         p Se refiere al número de minutos que utiliza el personal de mano de obra directa durante una jornada o periodo de trabajo, al realizar una actividad, utilizar cien por ciento la maquinaria disponible durante el ciclo laboral y calcular matemáticamente los minutos empleados para un servicio o una orden de producción específica; todo esto, con base en la aplicación estricta de los parámetros de calidad que se requieren para ensamblar una unidad de producción o precisamente la prestación del servicio.
         p #[b Horas hombre]
         p Para las corporaciones de manufactura y servicios hablar de capacidad instalada se refiere a volver tiempo, el componente vital del proceso productivo que es el factor humano. 
-        p.p-3.bg11 #[b Factor humano] <br> Técnicamente llamado minutos u horas hombre, que en operatividad de la infraestructura en maquinaria, tecnología digital y materias primas agrega valor y provee servicios o productos de óptima calidad. 
+        p.p-3.bg23 #[b Factor humano] <br> Técnicamente llamado minutos u horas hombre, que en operatividad de la infraestructura en maquinaria, tecnología digital y materias primas agrega valor y provee servicios o productos de óptima calidad. 
       .col-lg-5.mb-4.mb-lg-0
         figure
           img(src='@/assets/curso/tema1/img47.png').m-auto
@@ -567,7 +567,7 @@
       .col-lg-7
         p Los resultados obtenidos en cálculo de tiempo de las “horas hombre” se convierten en los elementos para determinar la trazabilidad porcentual de la carga instalada en unidad de tiempo y la asignación precisa de tareas a la infraestructura productiva.
         p De estos factores dependen que los administrativos, proyecten el futuro económico que tanto les preocupa, con estrategias gerenciales y el importante conocimiento que poseen los colaboradores del proceso logístico. 
-        p.p-3.bg11 #[b Altos parámetros de calidad] <br> El resultado final es abastecer al mercado con productos y servicios que tengan altos parámetros de calidad, lo que significa una ventaja competitiva que las empresas sostienen en el tiempo. 
+        p.p-3.bg23 #[b Altos parámetros de calidad] <br> El resultado final es abastecer al mercado con productos y servicios que tengan altos parámetros de calidad, lo que significa una ventaja competitiva que las empresas sostienen en el tiempo. 
     .row.mb-5.justify-content-center.align-items-center(data-aos="fade-left")
       .col-lg-7
         .bloque-texto-c.color-secundario.p-4
@@ -607,6 +607,7 @@
           h4.text-center Constante de días productivos por mes.
           p Para obtener este dato se debe calcular un promedio estadístico de la sumatoria de los días hábiles de producción por cada mes, lo cual numéricamente se estima que se trabaja con 24 días.    
     p.mb-5 Así, para determinar la  #[span.txt-color2 Capacidad Instalada Operativa] se debe realizar la siguiente  #[span.txt-color2 fórmula]:
+
     .row.justify-content-center.mb-5
       .col-lg-10
         figure
@@ -826,13 +827,13 @@
               td.text-center 22/07/2021
     .row.bg18.justify-content-center.align-items-center.p-5.mb-5
       .col-md-2.col-12.p-3
-        img(src='@/assets/curso/tema1/img67.svg').mx-auto
+        img.img-t(src='@/assets/curso/tema1/img67.svg').mx-auto
       .col-md-9.col-12
         p En la tabla, es posible conocer la fecha de ingreso de las órdenes de producción con sus respectivas referencias, descripción, número de unidades, tiempo estándar, total de minutos de producción y la fecha de despacho.
 
     .row.bg19.justify-content-center.align-items-center.p-5.mb-5
       .col-md-2.col-12.p-3
-        img(src='@/assets/curso/tema1/img68.svg').mx-auto
+        img.img-t(src='@/assets/curso/tema1/img68.svg').mx-auto
       .col-md-9.col-12
         p A partir de la información suministrada se puede interpretar técnicamente que la referencia 434343 con orden de producción número 102223, aporta al proceso un total de 5.621,1 minutos o que la referencia 434346 con orden de producción número 102226, aporta al proceso un total de 13.030,5 minutos. 
         p.mb-4 De esta manera, los datos presentados en este formato se convierten en el insumo vital para planear y programar en la planta de producción.
@@ -939,7 +940,7 @@
             p.mb-0 Para ampliar estos conceptos sobre los inventarios en una empresa, consultar en el material complementario el sitio web de Gestiopolis la publicación de #[span.txt-color2 Rebeca Martinez (2001) sobre “El inventario”].
           .col-lg-1.mb-3
             figure
-              img(src='@/assets/curso/tema1/img80.svg').mx-auto(data-aos="fade-right")
+              img.img-t(src='@/assets/curso/tema1/img80.svg').mx-auto(data-aos="fade-right")
     Separador
     #t_1_6
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")

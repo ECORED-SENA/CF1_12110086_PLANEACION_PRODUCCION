@@ -10,7 +10,7 @@
     .row.mb-2.align-items-center
       .col-lg-4.bg1.p-3.mb-3
         h3.text-white.text-center.mb-0 Planes de Producción
-    .row.bg11.justify-content-center.align-items-center.p-1.mb-0(data-aos="fade-right")
+    .row.bg23.justify-content-center.align-items-center.p-1.mb-0(data-aos="fade-right")
       .col-md-7.col-12.mb-0
         p Existen muchas herramientas diseñadas para ayudar con estos propósitos de planificación:
         ul.lista-ul
@@ -72,36 +72,40 @@
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-5
           p.mb-0 #[b Figura 4]. Características del Plan maestro de Producción
-        .row.bg13.justify-content-center.align-items-center.p-4.mb-3(data-aos="fade-left")
+        .row.bg25.justify-content-center.align-items-center.p-4(data-aos="fade-left")
           .col-lg-2.mb-4.mb-lg-0
             figure
               img.img-t(src='@/assets/curso/tema2/img5.svg').mx-auto
           .col-lg-10.mb-4.mb-lg-0
             p El PMP cuenta con unas características que son la estructura y el soporte del negocio para la fabricación o prestación del servicio y son la clave para para pronosticar la relación entre la demanda y su suministro; así mismo, saber cuándo necesita aumentar o disminuir la producción, manteniendo el compromiso con los clientes potenciales de la empresa.
-    .row.mb-5
-      .col-md-6.col-lg.tarjeta--tabla.p-4
-        .row.justify-content-center.mb-3
-          .col-4
-            img(src='@/assets/curso/tema2/img6.svg' alt='AvatarTop')
-        p.text-center- Tiene un enfoque prospectivo, ya que está basado en el plan agregado de producción. 
+        .row.mb-5
+          .col-md-6.col-lg.bg26.p-4
+            .row.justify-content-center.mb-3
+              .col-7.d-flex.align-items-center
+                figure
+                  img(src='@/assets/curso/tema2/img6.svg' alt='AvatarTop')
+            p.mb-0 - Tiene un enfoque prospectivo, ya que está basado en el plan agregado de producción. 
 
-      .col-md-6.col-lg.tarjeta--tabla.p-4
-        .row.justify-content-center.mb-3
-          .col-4
-            img(src='@/assets/curso/tema2/img7.svg' alt='AvatarTop')
-        p.py-3.text-center - Debe incluir la programación maestra de producción, el control de capacidades y la planificación a largo plazo.
+          .col-md-6.col-lg.bg26.p-4
+            .row.justify-content-center.mb-3
+              .col-7.d-flex.align-items-center
+                figure
+                  img(src='@/assets/curso/tema2/img7.svg' alt='AvatarTop')
+            p.mb-0.pt-4 - Debe incluir la programación maestra de producción, el control de capacidades y la planificación a largo plazo.
 
-      .col-md-6.col-lg.tarjeta--tabla.p-4
-        .row.justify-content-center.mb-3
-          .col-4
-            img(src='@/assets/curso/tema2/img8.svg' alt='AvatarTop')
-        p.text-center - Es integral, y holístico, maneja toda la información de las diferentes áreas de la empresa. 
+          .col-md-6.col-lg.bg26.p-4
+            .row.justify-content-center.mb-3
+              .col-7.d-flex.align-items-center
+                figure
+                  img(src='@/assets/curso/tema2/img8.svg' alt='AvatarTop')
+            p.mb-0 - Es integral, y holístico, maneja toda la información de las diferentes áreas de la empresa. 
 
-      .col-md-6.col-lg.tarjeta--tabla.p-4
-        .row.justify-content-center.mb-3
-          .col-4
-            img(src='@/assets/curso/tema2/img9.svg' alt='AvatarTop')
-        p.text-center - Se puede manejar en tiempo real, o simulado, por la proyección que permite determinar, qué ocurriría si se produjeran ciertos cambios en las circunstancias de partida. 
+          .col-md-6.col-lg.bg27.p-4
+            .row.justify-content-center.mb-3
+              .col-7.d-flex.align-items-center
+                figure
+                  img(src='@/assets/curso/tema2/img9.svg' alt='AvatarTop')
+            p.mb-0 - Se puede manejar en tiempo real, o simulado, por la proyección que permite determinar, qué ocurriría si se produjeran ciertos cambios en las circunstancias de partida. 
     .row.mb-2.align-items-center
       .col-lg-7.bg1.p-3.mb-5
         h3.text-white.text-center.mb-0 Elementos importantes en un Plan Maestro de Producción
@@ -181,7 +185,7 @@
               .col-auto
                 figure
                   img(src='@/assets/curso/tema2/img18.svg', style="width: 170px").m-auto
-              .col-lg-5.mb-4
+              .col-lg-5.mb-4.text-aling
                 p #[span.txt-color2 Plan Maestro de Producción]: cantidades, fechas, productos o referencias. 
           div
             .row.align-items-center
@@ -195,7 +199,7 @@
               .col-auto
                 figure
                   img(src='@/assets/curso/tema2/img20.svg', style="width: 170px").m-auto
-              .col-lg-5
+              .col-lg-5.text-aling
                 p #[span.txt-color2 Planeación de Requerimiento de Materiales (MRP)]: calcular los materiales e insumos necesarios para desarrollar los proyectos. 
           div
             .row.align-items-center
@@ -209,7 +213,7 @@
               .col-auto
                 figure
                   img(src='@/assets/curso/tema2/img22.svg', style="width: 170px").m-auto
-              .col-lg-5.mb-4
+              .col-lg-5.mb-4.text-aling
                 p #[span.txt-color2 Control de plantas]: hacer seguimiento para verificar el cumplimiento de los planes elaborados.
     Separador
     #t_2_3
