@@ -48,7 +48,7 @@
     .row.justify-content-center.mb-5
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-5
-          p.mb-0 #[b Figura 3]. Plan maestro de producción 
+          p.mb-0 #[b Figura 3]. <br> Plan maestro de producción 
         figure
           img(src='@/assets/curso/tema2/img3.svg')
     p Dimensionar las actividades y los recursos necesarios para poder sacar adelante los proyectos es un primer gran paso para las personas responsables de la producción, producir unidades en corto tiempo, de muy buena calidad, al menor costo, y en el mejor de los ambientes es el gran objetivo de las corporaciones. 

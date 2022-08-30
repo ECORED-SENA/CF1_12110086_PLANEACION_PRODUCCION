@@ -45,7 +45,7 @@
           ul.lista-ul
             li 
               i.fas.fa-cog(style="color:#F14141")
-              | Empleo de <em>software</em> especializado para la elaboración de plan maestro de producción.  
+              p.mb-0 Empleo de <em>software</em> especializado para la elaboración de plan maestro de producción.  
             li 
               i.fas.fa-cog(style="color:#F14141")
               | Implementación de herramientas de trazabilidad numérica, indicadores de gestión.
@@ -91,11 +91,10 @@
       h2 1.2 Sistemas de Producción
     p.mb-5 Los sistemas de producción en la sociedad moderna son sobresalientes; estos sistemas forman la base para construir y mejorar la fortaleza y la vitalidad económicas de un país. La tarea de desarrollar y operar los sistemas de producción crece en complejidad, los cambios importantes en los productos, los procesos, las tecnologías de gestión, los conceptos y la cultura, dan como resultado retos y necesidades cada vez mayores. 
     .row.justify-content-center.align-items-center.mb-4
-      
       .col-md-6.col-12.bg5.p-4(data-aos="fade-right") 
         p El #[b #[i Lean Manufacturing]] es toda una estrategia y/o conciencia de  fabricación en el que la configuración de espacio físico es lo más relevante de la planta.
         p Es un sistema de producción emergente,  comúnmente conocido en los ambientes de producción como manufactura celular.
-      .col-md-6.col-12.px-0
+      .col-md-6.col-12.px-0.ps-3
         figure
           img(src='@/assets/curso/tema1/img7.png')(data-aos="fade-left")
     
