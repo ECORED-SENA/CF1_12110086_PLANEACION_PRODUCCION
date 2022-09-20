@@ -66,7 +66,7 @@
             p.mb-0 Plan maestro es una herramienta para optimizar la producción, especialmente de las empresas manufactureras con ayuda de la tecnología; se utiliza, para calcular la producción, elaboración o manufactura de bienes o servicios, mediante el suministro de información relacionada  a ¿cuáles?, ¿cuántos?, ¿cuándo?, entre otros datos, es decir, determinar para cada producto, la cantidad que debe ser fabricada en periodos de tiempo: año, mes, semana; también ayuda a definir factores como precio, tiempo, turnos, salarios, materias primas, insumos, entre otros. 
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/gvH08jqllaI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     p Este plan, conocido como PMP por sus siglas en español Plan Maestro de la Producción, o MPS por sus siglas en inglés <em>Master Production Schedule</em>, relaciona eventos de la planeación a nivel operativo y se encarga de revisar los pronósticos del mercado, y la trazabilidad porcentual a los pedidos que se hayan producido. Es necesario para esta función, determinar los niveles de inventario y la información de la capacidad instalada para que se puedan desarrollar los planes maestros de producción. 
     .row.justify-content-center.mb-5
       .col-lg-10
