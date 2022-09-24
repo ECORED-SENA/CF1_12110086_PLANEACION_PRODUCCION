@@ -83,28 +83,28 @@
             .row.justify-content-center.mb-3
               .col-7.d-flex.align-items-center
                 figure
-                  img(src='@/assets/curso/tema2/img6.svg' alt='AvatarTop')
+                  img.img-t(src='@/assets/curso/tema2/img6.svg' alt='AvatarTop').mx-auto
             p.mb-0 - Tiene un enfoque prospectivo, ya que está basado en el plan agregado de producción. 
 
           .col-md-6.col-lg.bg26.p-4
             .row.justify-content-center.mb-3
               .col-7.d-flex.align-items-center
                 figure
-                  img(src='@/assets/curso/tema2/img7.svg' alt='AvatarTop')
+                  img.img-t(src='@/assets/curso/tema2/img7.svg' alt='AvatarTop').mx-auto
             p.mb-0.pt-4 - Debe incluir la programación maestra de producción, el control de capacidades y la planificación a largo plazo.
 
           .col-md-6.col-lg.bg26.p-4
             .row.justify-content-center.mb-3
               .col-7.d-flex.align-items-center
                 figure
-                  img(src='@/assets/curso/tema2/img8.svg' alt='AvatarTop')
+                  img.img-t(src='@/assets/curso/tema2/img8.svg' alt='AvatarTop').mx-auto
             p.mb-0 - Es integral, y holístico, maneja toda la información de las diferentes áreas de la empresa. 
 
           .col-md-6.col-lg.bg27.p-4
             .row.justify-content-center.mb-3
               .col-7.d-flex.align-items-center
                 figure
-                  img(src='@/assets/curso/tema2/img9.svg' alt='AvatarTop')
+                  img.img-t(src='@/assets/curso/tema2/img9.svg' alt='AvatarTop').mx-auto
             p.mb-0 - Se puede manejar en tiempo real, o simulado, por la proyección que permite determinar, qué ocurriría si se produjeran ciertos cambios en las circunstancias de partida. 
     .row.mb-2.align-items-center
       .col-lg-7.bg1.p-3.mb-5
@@ -117,7 +117,7 @@
             p.mb-3 Es una línea de tiempo o gráfica que nos permite visualizar en el tiempo y de manera anticipada, cuál es el recorrido y desarrollo de los proyectos y planes de producción. No abarca períodos de tiempo muy largos, habitualmente toma sólo 8 o 10 semanas. Para representarlo se puede utilizar un diagrama de Gantt, y se complementa, además de esos períodos de tiempo, con información de los pedidos, los presupuestos, y los inventarios iniciales y finales.
           .col-lg-3.d-flex.align-items-center.justify-content-center
             figure
-              img(src='@/assets/curso/tema2/img10.svg').m-auto
+              img.img-t(src='@/assets/curso/tema2/img10.svg').mx-auto
       .tarjeta.color-acento-botones.p-4(titulo="El pronóstico de demanda:")
         .row
           .col-lg-9.mb-4.mb-lg-0.p-4
@@ -125,7 +125,7 @@
             p.mb-0 Estimar las ventas, en cantidades de determinados productos, y en determinados períodos de tiempo, y relacionarlo con la capacidad de producción es muy importante. Se puede trabajar con datos históricos o estudios de mercadeo, entre otros.
           .col-lg-3.d-flex.align-items-center.justify-content-center
             figure
-              img(src='@/assets/curso/tema2/img11.svg').m-auto
+              img.img-t(src='@/assets/curso/tema2/img11.svg').mx-auto
       .tarjeta.color-acento-botones.p-4(titulo="Pedidos de los clientes: ")
         .row
           .col-lg-9.mb-4.mb-lg-0.p-4
@@ -133,7 +133,7 @@
             p.mb-0 Una cosa es presupuestar o pronosticar las cantidades que se van a despachar y otra son los pedidos reales que nos van llegando; es importante saber distinguir ambas cifras para poder elaborar un buen PMP. Los pedidos reales son los que tenemos por escrito, consignados en un talonario, una base de datos o un <em>software</em> diseñado para ese propósito.
           .col-lg-3.d-flex.align-items-center.justify-content-center
             figure
-              img(src='@/assets/curso/tema2/img12.svg').m-auto
+              img.img-t(src='@/assets/curso/tema2/img12.svg').mx-auto
       .tarjeta.color-acento-botones.p-4(titulo="Cantidades de los lotes de producción:")
         .row
           .col-lg-9.mb-4.mb-lg-0.p-4
@@ -141,7 +141,7 @@
             p.mb-0 Estas cifras se determinan de acuerdo a las políticas de las organizaciones, que algunas veces se basan en la consecución de las materias primas, los sistemas de producción, los cortes de demanda, las restricciones de maquinarias o procesos, o la disponibilidad de mano de obra.
           .col-lg-3.d-flex.align-items-center.justify-content-center
             figure
-              img(src='@/assets/curso/tema2/img13.svg').m-auto
+              img.img-t(src='@/assets/curso/tema2/img13.svg').m-auto
       .tarjeta.color-acento-botones.p-4(titulo="Capacidad Instalada: ")
         .row
           .col-lg-9.mb-4.mb-lg-0.p-4
@@ -149,7 +149,7 @@
             p.mb-0 Se refiere a la cantidad de unidades de productos o servicios que somos capaces de producir en determinada cantidad de tiempo. Tiene que ver con el número de operarios, el horario de las jornadas de trabajo, y la cantidad de tiempo que se gasta la manufactura o elaboración de ese producto (estándar). Es imposible construir un PMP, sin tener información de la capacidad instalada y todos los elementos que la componen. Solo así se puede hacer una promesa de fecha de entrega.
           .col-lg-3.d-flex.align-items-center.justify-content-center
             figure
-              img(src='@/assets/curso/tema2/img13.svg').m-auto
+              img.img-t(src='@/assets/curso/tema2/img14.svg').mx-auto
     Separador
     #t_2_2
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")

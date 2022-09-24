@@ -53,6 +53,7 @@
    
 .bg3
   background-color: #E9EEF9
+ 
 
 .bg4
   position: relative
@@ -132,7 +133,13 @@
     background-image: url("../assets/curso/tema1/img42.svg") 
     background-repeat: no-repeat
     background-size: contain
-
+    @media (max-width: $bp-max-md)
+      background-size: cover
+      left: -8px
+      width: calc( 100% + 1rem)
+      height: calc( 100% + 1rem)
+    
+     
 .bg11
   position: relative
   p, img
@@ -150,9 +157,10 @@
     border-bottom-right-radius: 30px
     @media (max-width: $bp-max-md)
       background-size: cover
+      top: 2px
       left: -8px
       width: calc( 100% + 1rem)
-  
+      height: 92%
 
 .bg12
   background-color: #fff
@@ -226,6 +234,7 @@
   background-image: url("../assets/curso/tema1/img75.svg") 
   background-repeat: no-repeat
   background-size: cover
+  
 .bg23
   background-color: #E9F4F9
 .bg24
@@ -242,6 +251,14 @@
   background-color: #D9F2F6
   border-top: 5px solid #02A5BF
   
+.bg28
+  background-color: #E9EEF9
+  height: 137px
+
+.bg29
+  background-color: #FDE2E2
+  height: 137px
+  margin-left: 5px
     
 .dual-txt-deco
   position: relative
@@ -370,6 +387,11 @@
 
 .tabs-a__tab
   background-color: #E8E8E8
+
+.tabs-a.color-acento-contenido .tabs-a__tab:hover, .tabs-a.color-acento-contenido .tabs-a__tab:active, .tabs-a.color-acento-contenido .tabs-a__tab:focus 
+  background-color: #F14141
+  color: white
+
 
 .tarjeta.color-acento-botones
   background-color: #E9F4F9

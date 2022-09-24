@@ -94,13 +94,13 @@
       .col-md-6.col-12.bg5.p-4(data-aos="fade-right") 
         p El #[b #[i Lean Manufacturing]] es toda una estrategia y/o conciencia de  fabricación en el que la configuración de espacio físico es lo más relevante de la planta.
         p Es un sistema de producción emergente,  comúnmente conocido en los ambientes de producción como manufactura celular.
-      .col-md-6.col-12.px-0.ps-3
+      .col-md-6.col-12.px-0
         figure
           img(src='@/assets/curso/tema1/img7.png')(data-aos="fade-left")
     
     .row.mb-2.align-items-center
       .col-lg-4.bg1.p-3.mb-5
-        h3.text-white.text-center.mb-0 Estrategias de producción
+        h4.text-white.text-center.mb-0 Estrategias de producción
     .row.justify-content-center(data-aos="fade-right")
       .col-lg-12
         ImagenInfografica.color-acento-contenido.mb-5
@@ -116,7 +116,7 @@
             p.mb-0 Empleando programas especializados.
     .row.mb-2.align-items-center
       .col-lg-4.bg6.p-3.mb-5
-        h3.text-white.text-center.mb-0 Generando mejoras en…
+        h4.text-white.text-center.mb-0 Generando mejoras en…
     .row.justify-content-center.mb-5
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
         .tarjeta--boton.bg_color1.text-black--hover.p-4.h-100
@@ -202,25 +202,25 @@
           img(src='@/assets/curso/tema1/img19.svg')
     .row.mb-2.align-items-center
       .col-lg-4.bg1.p-3.mb-5
-        h3.text-white.text-center.mb-0 Funciones de producción
+        h4.text-white.text-center.mb-0 Funciones de producción
     p.mb-5 Es posible que observamos en la infinidad de estructuras logísticas, ya sea pequeñas o de gran dimensión la presencia de dos tipos de actividades productivas o servicios:
     .row.justify-content-center.align-items-center.mb-5
       .col-sm-6.col-lg-4.mb-4.mb-lg-0
         .tarjeta--boton.bg8.text-white.p-5.h-100
           .row.justify-content-center.mb-0
-            .col-12
+            .col-12.mb-0
               figure
                 img(src='@/assets/curso/tema1/img20.png', alt='Texto que describa la imagen')
-          h3.text-center Directas
+          h4.mb-0.text-center Directas
           p Relacionadas con la transformación de la materia prima.
       .col-lg-1
       .col-sm-6.col-lg-4.mb-4.mb-lg-0
         .tarjeta--boton.bg8.text-white.p-5.h-100
           .row.justify-content-center.mb-0
-            .col-12
+            .col-12.mb-0
               figure
                 img(src='@/assets/curso/tema1/img21.png', alt='Texto que describa la imagen')
-          h3.text-center Indirectas
+          h4.mb-0.text-center Indirectas
           p Relacionadas con la administración de los procesos productivos.
     p.mb-5 De esta forma, un conocimiento profundo interrelaciona estas funciones y los sistemas de producción como cerebro del proceso, es así como establece 10 componentes o funciones que logísticamente ordenan todos los eventos relacionados con el producto o servicio, estos son:
     .row.align-items-center.mb-5
@@ -233,7 +233,7 @@
                   p.ps-5 Las materias primas deben estar disponibles en el momento en que sean requeridas y necesarias para asegurar que todos los procesos de transformación comiencen a su debido tiempo. Esto incluye tener a la mano las fichas técnicas de ellos, así como contar con información acerca de la calidad, cantidad, disponibilidad y oportunidad de entrega
                 .col-lg-3.col-md-6.col-12.p-0
                   figure
-                    img(src='@/assets/curso/tema1/img23.svg', alt='Texto que describa la imagen')
+                    img.img-t(src='@/assets/curso/tema1/img23.svg', alt='Texto que describa la imagen').mx-auto
           .row(titulo="Función de la maquinaria y equipo")
             .col-12
                 .row.align-items-center
@@ -241,7 +241,7 @@
                     p.ps-5 Este es sin duda un recurso necesario e indispensable para cumplir con los requerimientos de ensamble del producto. La producción siempre depende del programa de mantenimiento de las máquinas, por ello, los planes de mantenimiento preventivo y reposición tecnológica garantizan un producto conforme con altos parámetros de calidad. 
                   .col-lg-3.col-md-6.col-12.p-0
                     figure
-                      img(src='@/assets/curso/tema1/img24.svg')
+                    img.img-t(src='@/assets/curso/tema1/img24.svg').mx-auto
           .row(titulo="Determinación de rutas de trabajo")
             .col-12
               .row.align-items-center
@@ -249,7 +249,7 @@
                   p.ps-5 Se fundamentan en las secuencias operacionales, para ello se descompone el proceso en fases y sub fases, orientando así el flujo de producción hacia la mínima manipulación de la materia prima, igualmente las rutas definen otros parámetros como la distribución en planta, la localización de operaciones claves de sistemas de transporte, terminación y acabados. 
                 .col-lg-3.col-md-6.col-12.p-0
                   figure
-                    img(src='@/assets/curso/tema1/img25.svg')
+                  img.img-t(src='@/assets/curso/tema1/img25.svg').mx-auto
           .row(titulo="Establecer matriz de polifuncionalidad")
             .col-12
               .row.align-items-center
@@ -257,7 +257,7 @@
                   p.ps-5 Se define como el conocimiento profundo del factor humano y su relación directa con el producto. El personal siendo tan sensible y fluctuante no debe alterar resultados, la dispersión de los indicadores de piso debe ser mínima ya que pueden traer problemas financieros a la compañía.
                 .col-lg-3.col-md-6.col-12.p-0
                   figure
-                    img(src='@/assets/curso/tema1/img26.svg')
+                  img.img-t(src='@/assets/curso/tema1/img26.svg').mx-auto
       .col-lg-4
         figure
           img(src='@/assets/curso/tema1/img22.png', alt='Texto que describa la imagen')
@@ -274,7 +274,7 @@
                   p.ps-5 Estas se fijan según disponibilidad de personas y su capacidad de procesar, para ello es necesario el máximo aprovechamiento del tiempo y la entrega de un producto de máxima calidad en el menor recorrido posible.
                 .col-lg-3.col-md-6.col-12.p-0
                   figure
-                    img(src='@/assets/curso/tema1/img28.svg')
+                  img.img-t(src='@/assets/curso/tema1/img28.svg').mx-auto
           .row(titulo="Función de ejecución de los planes")
             .col-12
                 .row.align-items-center
@@ -282,7 +282,7 @@
                     p.ps-5 Está relacionada con la responsabilidad de los líderes de proceso del lanzamiento y puesta en marcha de todo lo que se escribió en las matrices de planeación. Esto se debe entregar en el momento adecuado a las personas responsables de las hojas de ruta. 
                   .col-lg-3.col-md-6.col-12.p-0
                     figure
-                      img(src='@/assets/curso/tema1/img29.svg')
+                    img.img-t(src='@/assets/curso/tema1/img29.svg').mx-auto
           .row(titulo="Función de seguimiento")
             .col-12
               .row.align-items-center
@@ -290,7 +290,7 @@
                   p.ps-5 Este instrumento de control es el brazo ejecutivo que mantiene una estrecha vigilancia sobre el avance del proceso. Esta función mantiene relación directa con la programación, con el fin de lograr una retroactividad que facilita realizar ajustes en el proceso, además permite reacomodar políticas y objetivos del programa.
                 .col-lg-3.col-md-6.col-12.p-0
                   figure
-                    img(src='@/assets/curso/tema1/img30.svg')
+                  img.img-t(src='@/assets/curso/tema1/img30.svg').mx-auto
           .row(titulo="Función de verificación")
             .col-12
               .row.align-items-center
@@ -298,7 +298,7 @@
                   p.ps-5 Reside su importancia en el control de trazabilidad del proceso. Es de destacar que la anterior función se direcciona a la manera en que se está trabajando con los parámetros de calidad interna y externa a los procesos, lo cual da reconocimiento y estatus frente a la competencia. En cambio, esta función muestra fortalezas y debilidades de la puesta en marcha de los recursos a favor de la buena calidad del producto.
                 .col-lg-3.col-md-6.col-12.p-0
                   figure
-                    img(src='@/assets/curso/tema1/img31.svg')
+                  img.img-t(src='@/assets/curso/tema1/img31.svg').mx-auto
           .row(titulo="Función de evaluación")
             .col-12
               .row.align-items-center
@@ -306,7 +306,7 @@
                   p.ps-5 La evaluación es un vínculo prioritario en todas las etapas anteriores, mediante indicadores permite establecer el estado real del proceso, una función netamente de manejo gerencial y administrativo. Es preciso tener un mecanismo de análisis retroactivo del cumplimiento de los números en todas las áreas de la empresa, puede ser costos, efectividad, productividad, eficacia, en fin, todo esto se mide en esta función. En resumen, mide toda la planeación estratégica proyectada en la empresa.   
                 .col-lg-3.col-md-6.col-12.p-0
                   figure
-                    img(src='@/assets/curso/tema1/img32.svg')
+                  img.img-t(src='@/assets/curso/tema1/img32.svg').mx-auto
     Separador
     #t_1_3
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -584,7 +584,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-sm-4.col-lg-4.mb-4.mb-lg-0
         .tarjeta--boton1.bg8.text-white.p-4.alt
-          .row.justify-content-center.mb-3
+          .row.justify-content-center
             .col-12
               figure
                 img(src='@/assets/curso/tema1/img50.png', alt='Texto que describa la imagen')
@@ -592,15 +592,16 @@
           p.pb-3 Se define como el recurso humano directo que interviene en el proceso productivo, es decir, los personas que transforman la materia prima.
       .col-sm-4.col-lg-4.mb-4.mb-lg-0
         .tarjeta--boton1.bg8.text-white.p-4
-          .row.justify-content-center.mb-3
+          .row.justify-content-center
             .col-12
               figure
                 img(src='@/assets/curso/tema1/img51.png', alt='Texto que describa la imagen')
-          h4.text-center Jornada de trabajo.
+          h4.text-center.mb-3 Jornada de trabajo.
+          br
           p.pb-3 Periodo de tiempo estimado en la normatividad del Código Sustantivo del Trabajo colombiano, en el que se determinan un número de minutos horarios o diarios.
       .col-sm-4.col-lg-4.mb-4.mb-lg-0
         .tarjeta--boton1.bg8.text-white.p-4
-          .row.justify-content-center.mb-3
+          .row.justify-content-center
             .col-12
               figure
                 img.img(src='@/assets/curso/tema1/img52.png', alt='Texto que describa la imagen')
@@ -628,7 +629,7 @@
           thead
             tr 
               th(colspan="5").text-center CAPACIDAD INSTALADA OPERATIVA MÓDULO 1 
-          tbody
+          tbody(style="background-color: #FFFFFF")
             tr
               td.text-center Variable
               td.text-center Nro. de Personas de M.O.D
@@ -658,7 +659,7 @@
           thead
             tr 
               th(colspan="5").text-center CAPACIDAD INSTALADA OPERATIVA MÓDULO 2
-          tbody
+          tbody(style="background-color: #FFFFFF")
             tr
               td.text-center Variable
               td.text-center Nro. de Personas de M.O.D
@@ -688,7 +689,7 @@
           thead
             tr 
               th(colspan="5").text-center CAPACIDAD INSTALADA OPERATIVA ÁREA DE EMPAQUE 
-          tbody
+          tbody(style="background-color: #FFFFFF")
             tr
               td.text-center Variable
               td.text-center Nro. de Personas de M.O.D
@@ -734,7 +735,7 @@
         .bloque-texto-d.color-secundario.p-4
           .bloque-texto-b__texto.mb-2
             i.fas.fa-quote-left
-            h3.text-regular Se asocia al tiempo que aporta una orden de producción específica, con base en el tiempo estándar y el número de unidades programadas en ella. Los minutos de producción aportan inventario de carga de tiempo para realizar la planeación y la programación de la planta de producción, ya sea horaria, diaria, semanal, entre otros.
+            p Se asocia al tiempo que aporta una orden de producción específica, con base en el tiempo estándar y el número de unidades programadas en ella. Los minutos de producción aportan inventario de carga de tiempo para realizar la planeación y la programación de la planta de producción, ya sea horaria, diaria, semanal, entre otros.
             i.fas.fa-quote-right
           .bloque-texto-d__autor 
             .h6.mb-0 (Valverde Chifla, 2014).
@@ -742,21 +743,21 @@
       p.mb-5 Para realizar su cálculo se emplean las siguientes #[span.txt-color2 variables]:
       .row.justify-content-center.align-items-center.mb-5
         .col-sm-6.col-lg-4.mb-4.mb-lg-0
-          .tarjeta--boton1.bg8.text-white.p-5.alt
+          .tarjeta--boton1.bg8.text-white.p-4.alt
             .row.justify-content-center.mb-0
               .col-12
                 figure
                   img(src='@/assets/curso/tema1/img60.png', alt='Texto que describa la imagen')
-            h3.text-center Número de Unidades de la orden de producción
+            h4.mb-0.text-center Número de Unidades de la orden de producción
             p Se define como el total de unidades asociadas a una orden de producción específica.
         .col-lg-1
         .col-sm-6.col-lg-4.mb-4.mb-lg-0
-          .tarjeta--boton1.bg8.text-white.p-5.alt
+          .tarjeta--boton1.bg8.text-white.p-4.alt
             .row.justify-content-center.mb-0
               .col-12
                 figure
                   img(src='@/assets/curso/tema1/img61.png', alt='Texto que describa la imagen')
-            h3.text-center Tiempo estándar de la prenda
+            h4.mb-3.text-center Tiempo estándar de la prenda
             p Es la unidad de medida de tiempo en minutos de una prenda de vestir, se obtiene mediante un estudio de métodos y tiempos que da como resultado precisamente el tiempo estándar de la prenda.
       p.mb-5 Así, para determinar la #[span.txt-color2 Carga Instalada o minutos de Producción] se debe realizar la siguiente #[span.txt-color2 fórmula]:
     .row.justify-content-center.mb-5
@@ -779,7 +780,7 @@
           thead
             tr 
               th(colspan="8").text-center CARGA INSTALADA O MINUTOS DE PRODUCCIÓN
-          tbody
+          tbody(style="background-color: #FFFFFF")
             tr
               td.text-center Fecha de ingreso
               td.text-center Referencia
@@ -845,7 +846,7 @@
         .bloque-texto-d.color-secundario.p-0
           .bloque-texto-b__texto.mb-0
             i.fas.fa-quote-left
-            h3.text-regular Se asocia a la diversidad de máquinas con que cuentan las plantas de manufactura, aunque esta carga es poco empleada para protocolos de programación, los minutos técnicos muestran las restricciones que tienen las empresas con respecto a la maquinaria. Igual que los anteriores tipos de cargas, son los minutos asociados al parque de inventario disponible durante una jornada de trabajo, igualmente al tiempo que aportan los recursos de guías y accesorios que acompañan al departamento de producción, además de la calidad y áreas de montaje del producto.
+            p Se asocia a la diversidad de máquinas con que cuentan las plantas de manufactura, aunque esta carga es poco empleada para protocolos de programación, los minutos técnicos muestran las restricciones que tienen las empresas con respecto a la maquinaria. Igual que los anteriores tipos de cargas, son los minutos asociados al parque de inventario disponible durante una jornada de trabajo, igualmente al tiempo que aportan los recursos de guías y accesorios que acompañan al departamento de producción, además de la calidad y áreas de montaje del producto.
             i.fas.fa-quote-right
           .bloque-texto-d__autor.mb-5 
             .h6.mb-0 (Valverde Chifla, 2014).
@@ -856,21 +857,21 @@
       p.mb-5 Para realizar su cálculo se emplean las siguientes #[span.txt-color2 variables]:
       .row.justify-content-center.align-items-center.mb-5
         .col-sm-6.col-lg-4.mb-4.mb-lg-0
-          .tarjeta--boton1.bg8.text-white.p-5.alt
-            .row.justify-content-center.mb-0
-              .col-12
-                figure
-                  img(src='@/assets/curso/tema1/img70.png', alt='Texto que describa la imagen')
-            h3.text-center Número de Unidades de la orden de producción
-            p Se define como el total de unidades asociadas a una orden de producción específica.
-        .col-lg-1
-        .col-sm-6.col-lg-4.mb-4.mb-lg-0
-          .tarjeta--boton1.bg8.text-white.p-5.alt
+          .tarjeta--boton1.bg8.text-white.p-4.alt
             .row.justify-content-center.mb-0
               .col-12
                 figure
                   img(src='@/assets/curso/tema1/img71.png', alt='Texto que describa la imagen')
-            h3.text-center Jornada de trabajo
+            h4.text-center Número de Unidades de la orden de producción
+            p Se define como el total de unidades asociadas a una orden de producción específica.
+        .col-lg-1
+        .col-sm-6.col-lg-4.mb-4.mb-lg-0
+          .tarjeta--boton1.bg8.text-white.p-4.alt
+            .row.justify-content-center.mb-0
+              .col-12
+                figure
+                  img(src='@/assets/curso/tema1/img70.png', alt='Texto que describa la imagen')
+            h4.text-center.mb-4 Jornada de trabajo
             p Periodo de tiempo estimado en la normatividad del Código Sustantivo del Trabajo colombiano, en el que se determinan un número de minutos horarios o diarios.
       p.mb-5 Así, para determinar la #[span.txt-color2 Carga Instalada en minutos Técnicos] se debe realizar la siguiente #[span.txt-color2 fórmula]:
     .row.justify-content-center
@@ -885,25 +886,25 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg.align-items-center
         .row
-          .col.bg3(data-aos="fade-left").mb-4
+          .col.bg28(data-aos="fade-left").mb-4
             p.mt-3 Se elabora un listado de todos los requerimientos para poder elaborar el producto o prestar el servicio.
           .col-lg-1.px-0
             figure
               img.img26.d-none.d-lg-block(src='@/assets/curso/tema1/img73.svg')
       .col-lg-3.mb-4
-        .tarjeta--boton.bg22.text-white.px-5.ps-5.pb-3
+        .tarjeta--boton.bg22.text-white.px-5.ps-5.pb-4.pb-lg-3
           .row.justify-content-center.mb-0
             .col-lg-8
               figure
-                img(src='@/assets/curso/tema1/img76.svg', alt='Texto que describa la imagen')
+                img.img-t(src='@/assets/curso/tema1/img76.svg', alt='Texto que describa la imagen').mx-auto
             h3.text-center Costos por órdenes de producción
             p Es una estrategia para separar una matriz  de compra de otra, así sea similar.
       .col-lg.align-items-center
         .row
-          .col-lg-1.px-1
+          .col-lg-1
             figure
               img.img26.d-none.d-lg-block(src='@/assets/curso/tema1/img74.svg')
-          .col.bg5(data-aos="fade-left")
+          .col.bg29
             p.mt-3 Una  infraestructura digital o manual, asigna los valores monetarios para que los líderes de procesos den como resultado final y preciso el precio de venta.
     p.mb-5 Empleamos este sistema cuando se fabrican pedidos especiales cerrados, cumpliendo con unas especificaciones precisas y personalizadas de un cliente. La materia prima, los insumos y ciertos conocimientos aplicados son especiales, por tanto los costos son separados de otras órdenes así sean similares, entre otros ejemplos, joyería, muebles, fiestas, eventos, vestuario a medida, una vivienda. Este sistema es uno de los más empleados por su eficacia y precisión.        
     .row.mb-5.align-items-center
@@ -998,10 +999,10 @@
               .row.align-items-center
                 .col-md-10.align-items-center
                   p.ps-5 Constituye la existencia, a precio de costo, de los artículos comprados o producidos por la empresa, para su comercialización. Se incluyen en el inventario todas las mercancías de propiedad de la empresa que se encuentran en el almacén, bodegas, en tránsito (cuando la compañía ha comprado fuera del país) o entregadas en consignación, se excluyen las que no son propiedad de la empresa pero que se han recibido en consignación o están vendidas y aún no se han llevado al cliente.
-                  p.ps-5 En las empresas comerciales, cuyo objeto es la compra – venta, esta cuenta (inventarios) es lo que genera utilidades, por lo que los inventarios deben ser valorados y controlados técnicamente. 
+                  p.ps-5 En las empresas comerciales, cuyo objeto es la compra - venta, esta cuenta (inventarios) es lo que genera utilidades, por lo que los inventarios deben ser valorados y controlados técnicamente. 
                 .col-lg-2.col-md-6.col-12.p-0
                   figure
-                    img(src='@/assets/curso/tema1/img85.svg').mx-auto
+                    img(src='@/assets/curso/tema1/img86.svg').mx-auto
           
         
 
