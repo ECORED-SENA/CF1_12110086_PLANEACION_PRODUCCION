@@ -600,7 +600,7 @@
           br
           p.pb-3 Periodo de tiempo estimado en la normatividad del Código Sustantivo del Trabajo colombiano, en el que se determinan un número de minutos horarios o diarios.
       .col-sm-4.col-lg-4.mb-4.mb-lg-0
-        .tarjeta--boton1.bg8.text-white.p-4
+        .tarjeta--boton1.bg8.text-white.p-3
           .row.justify-content-center
             .col-12
               figure
@@ -883,29 +883,32 @@
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.5 Producción por lotes u órdenes de producción
     p Se define una orden de producción como una estructura de costos asociada a un número determinado de unidades o la instrucción para la ejecución de un servicio. 
-    .row.justify-content-center.align-items-center.mb-4
-      .col-lg.align-items-center
-        .row
-          .col.bg28(data-aos="fade-left").mb-4
-            p.mt-3 Se elabora un listado de todos los requerimientos para poder elaborar el producto o prestar el servicio.
-          .col-lg-1.px-0
-            figure
-              img.img26.d-none.d-lg-block(src='@/assets/curso/tema1/img73.svg')
-      .col-lg-3.mb-4
-        .tarjeta--boton.bg22.text-white.px-5.ps-5.pb-4.pb-lg-3
-          .row.justify-content-center.mb-0
-            .col-lg-8
-              figure
-                img.img-t(src='@/assets/curso/tema1/img76.svg', alt='Texto que describa la imagen').mx-auto
-            h3.text-center Costos por órdenes de producción
-            p Es una estrategia para separar una matriz  de compra de otra, así sea similar.
-      .col-lg.align-items-center
-        .row
-          .col-lg-1
-            figure
-              img.img26.d-none.d-lg-block(src='@/assets/curso/tema1/img74.svg')
-          .col.bg29
-            p.mt-3 Una  infraestructura digital o manual, asigna los valores monetarios para que los líderes de procesos den como resultado final y preciso el precio de venta.
+    
+    .row.justify-content-center
+      .col-12.col-md-10
+        .row.justify-content-center.align-items-center.mb-4
+          .col-lg-4.align-items-center
+            .row
+              .col.bg28(data-aos="fade-left").mb-4
+                p.mt-3 Se elabora un listado de todos los requerimientos para poder elaborar el producto o prestar el servicio.
+              .col-lg-1.px-0
+                figure
+                  img.img26.d-none.d-lg-block(src='@/assets/curso/tema1/img73.svg')
+          .col-lg-4.mb-4
+            .tarjeta--boton.bg22.text-white
+              .row.justify-content-center.p-3
+                .col-lg-8.mb-3
+                  figure
+                    img.img-t(src='@/assets/curso/tema1/img76.svg', alt='Texto que describa la imagen').mx-auto
+                h3.text-center Costos por órdenes de producción
+                p Es una estrategia para separar una matriz  de compra de otra, así sea similar.
+          .col-lg-4.align-items-center
+            .row
+              .col-lg-1
+                figure
+                  img.img26.d-none.d-lg-block(src='@/assets/curso/tema1/img74.svg')
+              .col.bg29
+                p.mt-3 Una  infraestructura digital o manual, asigna los valores monetarios para que los líderes de procesos den como resultado final y preciso el precio de venta.
     p.mb-5 Empleamos este sistema cuando se fabrican pedidos especiales cerrados, cumpliendo con unas especificaciones precisas y personalizadas de un cliente. La materia prima, los insumos y ciertos conocimientos aplicados son especiales, por tanto los costos son separados de otras órdenes así sean similares, entre otros ejemplos, joyería, muebles, fiestas, eventos, vestuario a medida, una vivienda. Este sistema es uno de los más empleados por su eficacia y precisión.        
     .row.mb-5.align-items-center
       .col-lg-4.bg1.p-3
@@ -964,7 +967,7 @@
                   p.ps-5 En toda actividad industrial concurren una variedad de artículos (materias primas) y materiales, los que serán sometidos a un proceso para obtener al final un artículo terminado o acabado. A los materiales que intervienen en mayor grado en la producción se les considera "materia prima", ya que son utilizadas en cantidades lo suficientemente importantes para lograr el producto acabado.
                 .col-lg-2.col-md-6.col-12.p-0
                   figure
-                    img(src='@/assets/curso/tema1/img82.svg', alt='Texto que describa la imagen').mx-auto
+                    img.img-t(src='@/assets/curso/tema1/img82.svg', alt='Texto que describa la imagen').mx-auto
           .row(titulo="Inventario de productos en proceso")
             .col-12
                 .row.align-items-center
@@ -973,7 +976,7 @@
                     p.ps-5 El inventario de productos en proceso consiste en todos los artículos o elementos que se utilizan en el actual proceso de producción. Es decir, son productos parcialmente terminados que se encuentran en un grado intermedio de producción y a los cuales se le aplicó la labor directa y gastos indirectos inherentes al proceso de producción en un momento determinado. Una de las características del Inventario de producción en proceso es que va aumentando el valor a medida que es transformado de materia prima en el producto terminado como consecuencia del proceso de producción. 
                   .col-lg-2.col-md-6.col-12.p-0
                     figure
-                      img(src='@/assets/curso/tema1/img83.svg').mx-auto
+                      img.img-t(src='@/assets/curso/tema1/img83.svg').mx-auto
           .row(titulo="Inventario de productos terminados")
             .col-12
               .row.align-items-center
@@ -982,7 +985,7 @@
                   p.ps-5 
                 .col-lg-2.col-md-6.col-12.p-0
                   figure
-                    img(src='@/assets/curso/tema1/img84.svg').mx-auto
+                    img.img-t(src='@/assets/curso/tema1/img84.svg').mx-auto
           .row(titulo="Inventario de materiales y suministros")
             .col-12
               .row.align-items-center
@@ -993,7 +996,7 @@
                   p.ps-5 -	Los artículos y materiales de reparación y mantenimiento de las maquinarias y aparatos operativos. Estos   artículos de reparación por su gran volumen, necesitan ser controlados adecuadamente y la existencia de estos varía en relación a sus necesidades. 
                 .col-lg-2.col-md-6.col-12.p-0
                   figure
-                    img(src='@/assets/curso/tema1/img85.svg').mx-auto
+                    img.img-t(src='@/assets/curso/tema1/img85.svg').mx-auto
           .row(titulo="Inventario de mercancías")
             .col-12
               .row.align-items-center
@@ -1002,7 +1005,7 @@
                   p.ps-5 En las empresas comerciales, cuyo objeto es la compra - venta, esta cuenta (inventarios) es lo que genera utilidades, por lo que los inventarios deben ser valorados y controlados técnicamente. 
                 .col-lg-2.col-md-6.col-12.p-0
                   figure
-                    img(src='@/assets/curso/tema1/img86.svg').mx-auto
+                    img.img-t(src='@/assets/curso/tema1/img86.svg').mx-auto
           
         
 
