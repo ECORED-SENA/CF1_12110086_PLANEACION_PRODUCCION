@@ -90,11 +90,12 @@
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.2 Sistemas de Producción
     p.mb-5 Los sistemas de producción en la sociedad moderna son sobresalientes; estos sistemas forman la base para construir y mejorar la fortaleza y la vitalidad económicas de un país. La tarea de desarrollar y operar los sistemas de producción crece en complejidad, los cambios importantes en los productos, los procesos, las tecnologías de gestión, los conceptos y la cultura, dan como resultado retos y necesidades cada vez mayores. 
-    .row.justify-content-center.align-items-center.mb-4
-      .col-md-6.col-12.bg5.p-4(data-aos="fade-right") 
-        p El #[b #[i Lean Manufacturing]] es toda una estrategia y/o conciencia de  fabricación en el que la configuración de espacio físico es lo más relevante de la planta.
-        p Es un sistema de producción emergente,  comúnmente conocido en los ambientes de producción como manufactura celular.
-      .col-md-6.col-12.px-0
+    .row.justify-content-center.mb-4
+      .col-md-6.col-12.bgt5.p-4.d-flex.align-items-center(data-aos="fade-right") 
+        div
+          p El #[b #[i Lean Manufacturing]] es toda una estrategia y/o conciencia de  fabricación en el que la configuración de espacio físico es lo más relevante de la planta.
+          p.mb-0 Es un sistema de producción emergente,  comúnmente conocido en los ambientes de producción como manufactura celular.
+      .col-md-6.col-12.px-0.d-flex.align-items-center
         figure
           img(src='@/assets/curso/tema1/img7.png')(data-aos="fade-left")
     
@@ -206,7 +207,7 @@
     p.mb-5 Es posible que observamos en la infinidad de estructuras logísticas, ya sea pequeñas o de gran dimensión la presencia de dos tipos de actividades productivas o servicios:
     .row.justify-content-center.align-items-center.mb-5
       .col-sm-6.col-lg-4.mb-4.mb-lg-0
-        .tarjeta--boton.bg8.text-white.p-5.h-100
+        .tarjeta--boton2.bg8.text-white.p-5
           .row.justify-content-center.mb-0
             .col-12.mb-0
               figure
@@ -215,7 +216,7 @@
           p Relacionadas con la transformación de la materia prima.
       .col-lg-1
       .col-sm-6.col-lg-4.mb-4.mb-lg-0
-        .tarjeta--boton.bg8.text-white.p-5.h-100
+        .tarjeta--boton2.bg8.text-white.p-5
           .row.justify-content-center.mb-0
             .col-12.mb-0
               figure
@@ -744,7 +745,7 @@
       .row.justify-content-center.align-items-center.mb-5
         .col-sm-6.col-lg-4.mb-4.mb-lg-0
           .tarjeta--boton1.bg8.text-white.p-4.alt
-            .row.justify-content-center.mb-0
+            .row.justify-content-center
               .col-12
                 figure
                   img(src='@/assets/curso/tema1/img60.png', alt='Texto que describa la imagen')
@@ -753,7 +754,7 @@
         .col-lg-1
         .col-sm-6.col-lg-4.mb-4.mb-lg-0
           .tarjeta--boton1.bg8.text-white.p-4.alt
-            .row.justify-content-center.mb-0
+            .row.justify-content-center
               .col-12
                 figure
                   img(src='@/assets/curso/tema1/img61.png', alt='Texto que describa la imagen')
@@ -858,7 +859,7 @@
       .row.justify-content-center.align-items-center.mb-5
         .col-sm-6.col-lg-4.mb-4.mb-lg-0
           .tarjeta--boton1.bg8.text-white.p-4.alt
-            .row.justify-content-center.mb-0
+            .row.justify-content-center.mb-3
               .col-12
                 figure
                   img(src='@/assets/curso/tema1/img71.png', alt='Texto que describa la imagen')
@@ -867,7 +868,7 @@
         .col-lg-1
         .col-sm-6.col-lg-4.mb-4.mb-lg-0
           .tarjeta--boton1.bg8.text-white.p-4.alt
-            .row.justify-content-center.mb-0
+            .row.justify-content-center.mb-3
               .col-12
                 figure
                   img(src='@/assets/curso/tema1/img70.png', alt='Texto que describa la imagen')
