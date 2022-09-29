@@ -77,7 +77,7 @@
             figure
               img.img-t(src='@/assets/curso/tema2/img5.svg').mx-auto
           .col-lg-10.mb-4.mb-lg-0
-            p El PMP cuenta con unas características que son la estructura y el soporte del negocio para la fabricación o prestación del servicio y son la clave para para pronosticar la relación entre la demanda y su suministro; así mismo, saber cuándo necesita aumentar o disminuir la producción, manteniendo el compromiso con los clientes potenciales de la empresa.
+            p El PMP cuenta con unas características que son la estructura y el soporte del negocio para la fabricación o prestación del servicio y son la clave para pronosticar la relación entre la demanda y su suministro; así mismo, saber cuándo necesita aumentar o disminuir la producción, manteniendo el compromiso con los clientes potenciales de la empresa.
         .row.mb-5
           .col-md-6.col-lg.bg26.p-4
             .row.justify-content-center.mb-3
@@ -239,7 +239,7 @@
             li 
               .lista-ol--cuadro__vineta
                 span d
-              p.mb-0 #[b Pedidos vs Capacidad Instalada = Capacidad disponible]: Definitivo, si se conoce las capacidades de producción y las cantidades demandadas, se pueden establecer fechas de entrega más acertadas, o se pueden tomar acciones de aumentar la capacidad de producción.
+              p.mb-0 #[b Pedidos vs. Capacidad Instalada = Capacidad disponible]: Definitivo, si se conoce las capacidades de producción y las cantidades demandadas, se pueden establecer fechas de entrega más acertadas, o se pueden tomar acciones de aumentar la capacidad de producción.
             li 
               .lista-ol--cuadro__vineta
                 span e

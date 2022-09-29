@@ -158,7 +158,7 @@ export default {
       tema:
         'Producción por lotes u órdenes de producción.	Sistema de inventarios',
       referencia:
-        'Martinez Rebeca. (2001, Noviembre 27). El inventario. Gestiopolis. Recuperado de',
+        'Martinez Rebeca. (2001, Noviembre 27). El inventario. Gestiopolis',
       tipo: 'Sitio Web',
       link: 'https://www.gestiopolis.com/el-inventario',
     },
@@ -253,7 +253,7 @@ export default {
     },
     {
       referencia:
-        'Empresa: investigación y pensamiento crítico, Edición Especial, 50-56.',
+        'Empresa: Investigación y pensamiento crítico, Edición Especial, 50-56.',
       link: 'http://dx.doi.org/10.17993/3cemp.2017.especial.50-56',
     },
     {
@@ -304,7 +304,7 @@ export default {
     },
     {
       referencia:
-        'Sipper, Daniel y Bulfín, Robert L. Jr. Pplaneación y control de la producción Pg. 26.',
+        'Sipper, Daniel y Bulfín, Robert L. Jr. Planeación y control de la producción Pg. 26.',
       link:
         'https://www.academia.edu/10997351/Daniel_Sipper_Planeaci%C3%B3n_y_Control_de_La_Producci%C3%B3n',
     },

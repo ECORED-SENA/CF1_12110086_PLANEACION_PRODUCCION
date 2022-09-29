@@ -156,7 +156,7 @@
         LineaTiempoD.color-secundario
           p(numero="1" titulo="Manufactura delgada ") Como también se le denomina al <em>Lean Manufacturing</em>; parte originalmente de las plantas industriales de la empresa automovilística Toyota, filosofía creada en la década del 50 luego de la segunda guerra mundial.
           p(numero="2" titulo="Filosofía de construcción ") Construcción de un producto o prestación de servicio bajo la premisa de tener todos los recursos disponibles en el momento y sitio que lo requieran el equipo de colaboradores.
-          p(numero="3" titulo="JIT") Conocida como manufactura “Justo A Tiempo” por su siglas siglas en inglés JIT). 
+          p(numero="3" titulo="JIT") Conocida como manufactura “Justo A Tiempo” por su siglas en inglés JIT). 
       .col-lg-6.mb-4.mb-lg-0
         figure
           img(src='@/assets/curso/tema1/img13.svg')(data-aos="fade-right")
@@ -523,7 +523,7 @@
           .tarjeta.tarjeta--azul
             .p-4
               p Por lo tanto, hacer un adecuado balanceo de líneas de producción, es la mejor técnica empleada en la asignación de cargas de trabajo y diseñar y aplicar la matriz de polifuncionalidad, lo que direcciona a los administrativos al descubrimiento de fortalezas y debilidades de los equipos de colaboradores. 
-    p.mb-5 En la situación actual de pequeños medianos y grandes empresarios, es necesarios desarrollar habilidades básicas dirigidas primordialmente a aportar al recurso humano poco calificado, en cómo mejorar los procesos logísticos de producción y servicios, siempre proyectando unos resultados finales óptimos en cuanto a costos y que satisfagan las necesidades de un cliente en términos de calidad. 
+    p.mb-5 En la situación actual de pequeños, medianos y grandes empresarios, es necesarios desarrollar habilidades básicas dirigidas primordialmente a aportar al recurso humano poco calificado, en cómo mejorar los procesos logísticos de producción y servicios, siempre proyectando unos resultados finales óptimos en cuanto a costos y que satisfagan las necesidades de un cliente en términos de calidad. 
     .row.align-items-center
       .col-lg-3.bg1.p-3.mb-5
         h3.text-white.text-center.mb-0 Capacidad productiva
@@ -590,7 +590,7 @@
               figure
                 img(src='@/assets/curso/tema1/img50.png', alt='Texto que describa la imagen')
           h4.text-center Número de personas de Mano de Obra Directa.
-          p.pb-3 Se define como el recurso humano directo que interviene en el proceso productivo, es decir, los personas que transforman la materia prima.
+          p.pb-3 Se define como el recurso humano directo que interviene en el proceso productivo, es decir, las personas que transforman la materia prima.
       .col-sm-4.col-lg-4.mb-4.mb-lg-0
         .tarjeta--boton1.bg8.text-white.p-4
           .row.justify-content-center
