@@ -271,45 +271,47 @@
       .col-lg-4.mb-4.mb-lg-0
         img(src='@/assets/curso/tema2/img25.svg').m-auto
     p Se puede concluir qué en un plan maestro de producción PMP, es importante contar con la siguiente información y saber de dónde proviene:
-    SlyderF(columnas="col-lg-6 col-xl-4")
-      .tarjeta-avatar
-        img(src='@/assets/curso/tema2/img26.svg' alt='AvatarTop')
-        .tarjeta.color-primario4
-          .p-4
-            h4.text-center El Inventario Inicial:
-            p.mb-0v.text-center Para visualizar en la línea de horizonte, el número de unidades a producir y en que fechas, es importante saber cuántas unidades tengo en inventario, antes de iniciar. 
-      .tarjeta-avatar
-        img(src='@/assets/curso/tema2/img27.svg' alt='AvatarTop')
-        .tarjeta.color-primario4
-          .p-4
-            h4.text-center El Inventario Final: 
-            p.mb-0.text-center Después de analizar un período y realizar los movimientos necesarios, como por ejemplo, producir y despachar unidades, queda un inventario final que al mismo tiempo, es el inventario inicial del siguiente período.
-      .tarjeta-avatar
-        img(src='@/assets/curso/tema2/img28.svg' alt='AvatarTop')
-        .tarjeta.color-primario4
-          .p-4
-            h4.text-center Los pronósticos de demanda o presupuestos de venta: 
-            pmb-0.text-center Son las cantidades por producto que se estiman se van a vender en determinado período, se realizan con datos históricos o estudios de mercadeo, entre otros.
-      .tarjeta-avatar
-        img(src='@/assets/curso/tema2/img29.svg' alt='AvatarTop')
-        .tarjeta.color-primario4
-          .p-4
-            h4.text-center Los pedidos: 
-            p.mb-0.text-center Después de haber interactuado con los clientes se establecen las cifras o cantidades de los pedidos en firme, es ahí donde el PMP entra a ser importante, ya que ayuda a definir las fechas en que se pueden entregar los pedidos, y si esas fechas no son satisfactorias, empezar a tomar acciones de mejora.
-      .tarjeta-avatar
-        img(src='@/assets/curso/tema2/img30.svg' alt='AvatarTop')
-        .tarjeta.color-primario4
-          .p-4
-            h4.text-center La cantidad de unidades por lote:
-            p.mb-0.text-center Las organizaciones, de acuerdo a los insumos y materias primas que utilizan y la manera y las fechas en que se los entregan, determinan sus niveles de inventario. También se tiene en cuenta los productos de más frecuencia en su demanda y eso lleva a las empresas a determinar políticas en la cantidad de unidades que van a manejar por lote.
-      .tarjeta-avatar
-        img(src='@/assets/curso/tema2/img31.svg' alt='AvatarTop')
-        .tarjeta.color-primario4
-          .p-4
-            h4.text-center Los períodos que se van a considerar o visualizar: 
-            p.mb-0.text-center Cuándo se van a realizar cálculos de producción mediante herramientas como el PMP, es importante definir cuál es el rango de tiempo que se va a atender, para esta metodología se tienen rangos cortos de tiempo, como semanas, quincenas, o meses.
+    .row.justify-content-center
+      .col-lg-10
+        SlyderF(columnas="col-lg-6 col-xl-4")
+          .tarjeta-avatar.slyderF-media
+            img(src='@/assets/curso/tema2/img26.svg' alt='AvatarTop')
+            .tarjeta.color-primario4
+              .p-4
+                h4.text-center El Inventario Inicial:
+                p.mb-0.text-center Para visualizar en la línea de horizonte, el número de unidades a producir y en que fechas, es importante saber cuántas unidades tengo en inventario, antes de iniciar. 
+          .tarjeta-avatar.slyderF-media
+            img(src='@/assets/curso/tema2/img27.svg' alt='AvatarTop')
+            .tarjeta.color-primario4
+              .p-4
+                h4.text-center El Inventario Final: 
+                p.mb-0.text-center Después de analizar un período y realizar los movimientos necesarios, como por ejemplo, producir y despachar unidades, queda un inventario final que al mismo tiempo, es el inventario inicial del siguiente período.
+          .tarjeta-avatar.slyderF-media
+            img(src='@/assets/curso/tema2/img28.svg' alt='AvatarTop')
+            .tarjeta.color-primario4
+              .p-4
+                h4.text-center Los pronósticos de demanda o presupuestos de venta: 
+                p.mb-0.text-center Son las cantidades por producto que se estiman se van a vender en determinado período, se realizan con datos históricos o estudios de mercadeo, entre otros.
+          .tarjeta-avatar.slyderF-media
+            img(src='@/assets/curso/tema2/img29.svg' alt='AvatarTop')
+            .tarjeta.color-primario4
+              .p-4
+                h4.text-center Los pedidos: 
+                p.mb-0.text-center Después de haber interactuado con los clientes se establecen las cifras o cantidades de los pedidos en firme, es ahí donde el PMP entra a ser importante, ya que ayuda a definir las fechas en que se pueden entregar los pedidos, y si esas fechas no son satisfactorias, empezar a tomar acciones de mejora.
+          .tarjeta-avatar.slyderF-media
+            img(src='@/assets/curso/tema2/img30.svg' alt='AvatarTop')
+            .tarjeta.color-primario4
+              .p-4
+                h4.text-center La cantidad de unidades por lote:
+                p.mb-0.text-center Las organizaciones, de acuerdo a los insumos y materias primas que utilizan y la manera y las fechas en que se los entregan, determinan sus niveles de inventario. También se tiene en cuenta los productos de más frecuencia en su demanda y eso lleva a las empresas a determinar políticas en la cantidad de unidades que van a manejar por lote.
+          .tarjeta-avatar.slyderF-media
+            img(src='@/assets/curso/tema2/img31.svg' alt='AvatarTop')
+            .tarjeta.color-primario4
+              .p-4
+                h4.text-center Los períodos que se van a considerar o visualizar: 
+                p.mb-0.text-center Cuándo se van a realizar cálculos de producción mediante herramientas como el PMP, es importante definir cuál es el rango de tiempo que se va a atender, para esta metodología se tienen rangos cortos de tiempo, como semanas, quincenas, o meses.
+          
       
-  
 
 
 </template>
