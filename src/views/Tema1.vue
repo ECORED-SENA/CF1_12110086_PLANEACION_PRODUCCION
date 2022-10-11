@@ -156,7 +156,7 @@
         LineaTiempoD.color-secundario
           p(numero="1" titulo="Manufactura delgada ") Como también se le denomina al <em>Lean Manufacturing</em>; parte originalmente de las plantas industriales de la empresa automovilística Toyota, filosofía creada en la década del 50 luego de la segunda guerra mundial.
           p(numero="2" titulo="Filosofía de construcción ") Construcción de un producto o prestación de servicio bajo la premisa de tener todos los recursos disponibles en el momento y sitio que lo requieran el equipo de colaboradores.
-          p(numero="3" titulo="JIT") Conocida como manufactura “Justo A Tiempo” por su siglas en inglés JIT). 
+          p(numero="3" titulo="JIT") Conocida como manufactura “Justo A Tiempo” por su siglas en inglés (JIT). 
       .col-lg-6.mb-4.mb-lg-0
         figure
           img(src='@/assets/curso/tema1/img13.svg')(data-aos="fade-right")

@@ -300,7 +300,7 @@ export default {
       referencia:
         'Salazar, P, C; Del Castillo, G. S. (2018) Fundamentos básicos de estadística. Primera Edición.',
       link:
-        'http://www.dspace.uce.edu.ec/bitstream/25000/13720/3/Fundamentos%20B%C3%A1sicos%20de%20Estad%C3%ADstica-Libro.pdf',
+        'https://www.academia.edu/40595228/Fundamentos_B%C3%A1sicos_de_Estad%C3%ADstica_Libro',
     },
     {
       referencia:
